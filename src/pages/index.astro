@@ -58,6 +58,7 @@ const experience = [
     org: "Kidobotics",
     desc: "Built \u201CVictory\u201D — a bomb-disposal & surveillance robot. 1st prize, 3rd National Level Junior Robotic Challenge (Bangalore).",
     evidence: [{ label: "The Tribune", url: "https://www.tribuneindia.com/news/archive/haryana-tribune/ambala-students-develop-bomb-disposal-robot-663689/" }],
+    images: ["journey/tribune-clipping.jpg", "journey/tribune-photo.jpg"],
   },
   {
     period: "2019",
@@ -65,6 +66,7 @@ const experience = [
     org: "Kidobotics",
     desc: "Smart dustbin robot — solar powered, AI sensors, auto lid + GSM/SMS alerts. Took robotics workshops at public events.",
     evidence: [{ label: "Dainik Bhaskar", url: "https://www.bhaskar.com/haryana/ambala/news/haryana-news-bps-students-created-smart-dustbin-robot-071541-4371711.html" }],
+    images: ["journey/bhaskar-clipping.jpg", "journey/workshop-2019.jpg"],
   },
   {
     period: "2019 \u2013 2022",
@@ -89,12 +91,20 @@ const experience = [
     title: "B. Software Engineering (Honours)",
     org: "Deakin University",
     desc: "Graduated with First Class Honours. Minor in Cyber Security.",
+    images: ["journey/australia-2024.jpg", "journey/first-car-2024.jpg"],
+  },
+  {
+    period: "2024 \u2013 2025",
+    title: "Console Operator",
+    org: "7-Eleven",
+    desc: "One year as a console operator — cash handling, inventory, customer service. (Dates approximate — adjust anytime.)",
   },
   {
     period: "2025",
     title: "Van Driver",
     org: "DHL",
     desc: "Winter holidays — delivery operations.",
+    images: ["journey/dhl-2025.jpg"],
   },
   {
     period: "2026",
@@ -254,6 +264,17 @@ const experience = [
                       e.evidence && e.evidence.length > 0 && (
                         <div class="tl-evidence">
                           {e.evidence.map((ev) => <a href={ev.url} target="_blank" rel="noopener">📰 {ev.label} →</a>)}
+                        </div>
+                      )
+                    }
+                    {
+                      e.images && e.images.length > 0 && (
+                        <div class="tl-images">
+                          {e.images.map((img) => (
+                            <a href={`/${img}`} target="_blank" rel="noopener" class="tl-img" title="Open full image">
+                              <img src={`/${img}`} alt={`Evidence — ${e.title}`} loading="lazy" />
+                            </a>
+                          ))}
                         </div>
                       )
                     }
