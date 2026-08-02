@@ -277,6 +277,87 @@ h1.name {
   color: var(--zinc-700);
 }
 
+/* ===== Honours banner ===== */
+.honours-banner {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1.5rem;
+  border-right: 1px solid var(--zinc-900);
+  border-bottom: 1px solid var(--zinc-900);
+  background: linear-gradient(90deg, var(--green-700), var(--green-500) 50%, var(--green-700));
+  background-size: 200% 100%;
+  animation: shimmer 6s linear infinite;
+  color: #fff;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.hb-emoji {
+  font-size: 1.3rem;
+}
+
+.hb-text strong {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.hb-stars {
+  color: var(--yellow-300);
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  text-shadow: 0 0 8px rgba(255, 224, 42, 0.5);
+}
+
+/* ===== Honours badge (hero) ===== */
+.honours-badge {
+  margin-top: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 1rem 0.65rem 0.8rem;
+  border: 2px solid var(--green-500);
+  border-radius: 0.5rem;
+  background: linear-gradient(to bottom right, var(--green-50), #fff);
+  box-shadow: 0 0 0 3px rgba(0, 199, 88, 0.15), 0 4px 14px rgba(0, 199, 88, 0.18);
+}
+
+.hb-star {
+  font-size: 1.5rem;
+  color: var(--yellow-300);
+  text-shadow: 0 0 6px rgba(255, 224, 42, 0.7);
+  animation: pulse-star 2s ease-in-out infinite;
+}
+
+@keyframes pulse-star {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.hb-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--green-700);
+  line-height: 1.2;
+}
+
+.hb-sub {
+  font-size: 0.72rem;
+  color: var(--zinc-500);
+  margin-top: 2px;
+}
+
 /* ===== Section label ===== */
 .section-label {
   font-size: 0.75rem;
