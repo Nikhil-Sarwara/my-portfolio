@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import units from '../../data/portfolio.json';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const u of units) {
+    const unitSlug = u.unit_code.toLowerCase();
+    paths.push({ params: { slug: unitSlug }, props: { type: 'unit', unit: u } });
+    for (const p of u.projects) {
+      paths.push({
+        params: { slug: `${unitSlug}/${p.id}` },
+        props: { type: 'project', unit: u, project: p },
+      });
+    }
+  }
+  return paths;
+}
+
+const { slug } = Astro.params;
+const { type, unit, project } = Astro.props;
+
+const site = {
+  email: "info@nikhilsarwara.com",
+  github: "https://github.com/Nikhil-Sarwara",
+  linkedin: "https://linkedin.com/in/nikhil-sarwara/",
+};
+
+const gradeShort = (g) => (g ? g.split(" ")[0] : "");
+const homeHref = `/units/${unit.unit_code.toLowerCase()}`;
+---
+<BaseLayout title={`${unit.unit_code} — ${unit.unit_name}`} description={unit.overview?.slice(0, 160)}>
+  <div class="page">
+    <div class="corner-tl"></div>
+    <div class="corner-br"></div>
+    <div class="content">
+      <div class="main-grid">
+        <div class="cell cell-wide">
+          {
+            type === 'unit' ? (
+              <>
+                <a class="back-link" href="/">← Back to Portfolio</a>
+                <div class="unit-header">
+                  <span class="badge-code">{unit.unit_code}</span>
+                  <span class="badge-grade">{unit.grade}</span>
+                </div>
+                <h1 class="unit-title">{unit.unit_name}</h1>
+                <div class="unit-meta" style="margin-bottom:1.5rem">{unit.semester}</div>
+                <p class="unit-overview">{unit.overview}</p>
+
+                <div class="block-label">Key Learnings</div>
+                <ul class="learnings">
+                  {unit.key_learnings?.map((k) => <li>{k}</li>)}
+                </ul>
+
+                <div class="block-label">Tools Used</div>
+                <div class="chips" style="margin-bottom:2.5rem">
+                  {unit.tools_used?.map((t) => <span class="chip">{t}</span>)}
+                </div>
+
+                <div class="block-label">Projects ({unit.projects.length})</div>
+                <div>
+                  {
+                    [...unit.projects]
+                      .sort((a, b) => (a.order || 0) - (b.order || 0))
+                      .map((p) => (
+                        <a class="project-row" href={`${homeHref}/${p.id}`}>
+                          <span class="p-num">{String(p.order || 0).padStart(3, "0")}</span>
+                          <span class="p-title">{p.title}</span>
+                          <div class="p-desc">{p.short_description}</div>
+                          <div class="p-grade">{p.grade_achieved}</div>
+                        </a>
+                      ))
+                  }
+                </div>
+              </>
+            ) : (
+              <>
+                <a class="back-link" href={homeHref}>← Back to {unit.unit_code}</a>
+                <div class="unit-header">
+                  <span class="badge-code">{unit.unit_code}</span>
+                  <span class="badge-grade">{project.grade_achieved || unit.grade}</span>
+                </div>
+                <h1 class="unit-title">{project.title}</h1>
+                <div class="unit-meta" style="margin-bottom:1.5rem">
+                  {unit.unit_name} · {project.category} · {project.year}
+                </div>
+                <p class="proj-desc">{project.description}</p>
+
+                <div class="block-label">Key Features</div>
+                <ul class="features">
+                  {project.key_features?.map((f) => <li>{f}</li>)}
+                </ul>
+
+                <div class="block-label">Technical Stack</div>
+                <div class="chips" style="margin-bottom:1.5rem">
+                  {project.technical_stack?.map((t) => <span class="chip">{t}</span>)}
+                </div>
+
+                <div class="block-label">Skills Demonstrated</div>
+                <div class="chips" style="margin-bottom:2.5rem">
+                  {project.skills_demonstrated?.map((s) => <span class="chip chip-green">{s}</span>)}
+                </div>
+              </>
+            )
+          }
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-links">
+          <a href={site.github} target="_blank" rel="noopener">GitHub</a>
+          <a href={site.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+          <a href={`mailto:${site.email}`}>Email</a>
+          <a href="/resume.pdf" download>Resume</a>
+        </div>
+        <span class="footer-note">© {new Date().getFullYear()} Nikhil Sarwara</span>
+      </footer>
+    </div>
+  </div>
+</BaseLayout>

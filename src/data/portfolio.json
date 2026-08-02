@@ -1,0 +1,3665 @@
+[
+ {
+  "unit_code": "SIT102",
+  "unit_name": "Introduction to Programming",
+  "semester": "Trimester 1, 2022",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers programming fundamentals using C++ and SplashKit library. Key concepts include variables, functions, loops, conditional statements, data structures, pointers, and game development. All tasks completed to High Distinction level demonstrating mastery of procedural programming concepts.",
+  "projects": [
+   {
+    "id": "sit102-001",
+    "title": "Hello World",
+    "category": "cpp",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "First C++ program using SplashKit library",
+    "description": "The classic Hello World program created to ensure all development tools are working correctly. This foundational task helped understand how basic coding works in C++ and verified that the C++ compiler (clang++), SplashKit manager (skm), and all components are functioning properly.",
+    "key_features": [
+     "Basic C++ syntax and structure",
+     "SplashKit library integration",
+     "Compiler and development environment setup",
+     "Terminal output with write_line"
+    ],
+    "technical_stack": [
+     "C++",
+     "SplashKit",
+     "Visual Studio Code",
+     "Clang++"
+    ],
+    "skills_demonstrated": [
+     "Basic C++ programming",
+     "Development environment configuration",
+     "Code compilation and execution"
+    ],
+    "evidence_pdf": "sit102/evidence/hello_world_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit102-002",
+    "title": "Shape Drawing",
+    "category": "cpp",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Procedural shape drawing using SplashKit graphics",
+    "description": "A program that opens a window and draws various shapes to the screen. This task helped understand how basic drawing shapes work in C++ using the SplashKit library, including understanding built-in functions, procedure calls, and function parameters.",
+    "key_features": [
+     "Window creation and management",
+     "Basic shape drawing (rectangles, triangles, circles)",
+     "Color handling",
+     "Procedures and functions",
+     "Delay and screen refresh"
+    ],
+    "technical_stack": [
+     "C++",
+     "SplashKit"
+    ],
+    "skills_demonstrated": [
+     "Graphics programming",
+     "Procedure creation and calls",
+     "Function parameters and return types",
+     "Overloaded functions"
+    ],
+    "evidence_pdf": "sit102/evidence/shape_drawing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit102-003",
+    "title": "Scene Drawing Animation",
+    "category": "multimedia",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Animated scene with bitmaps and sound effects",
+    "description": "An animated scene created using SplashKit library that imports bitmaps and sound effects. The animation includes multiple scenes featuring programming language comparisons as a creative theme. Demonstrates understanding of multimedia integration, animation timing, and resource management.",
+    "key_features": [
+     "Bitmap loading and rendering",
+     "Sound effect integration",
+     "Multi-scene animation",
+     "Animation timing and delays",
+     "Creative visual storytelling"
+    ],
+    "technical_stack": [
+     "C++",
+     "SplashKit"
+    ],
+    "skills_demonstrated": [
+     "Multimedia programming",
+     "Resource management",
+     "Animation timing",
+     "Event-driven graphics"
+    ],
+    "evidence_pdf": "sit102/evidence/scene_drawing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit102-004",
+    "title": "Hello User",
+    "category": "cpp",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "User interaction and input handling program",
+    "description": "A program that demonstrates user interaction by accepting input and providing personalized output. This task showcases understanding of user input handling, variable usage, and string manipulation in C++.",
+    "key_features": [
+     "User input handling",
+     "String manipulation",
+     "Personalized output",
+     "Variable usage"
+    ],
+    "technical_stack": [
+     "C++",
+     "SplashKit"
+    ],
+    "skills_demonstrated": [
+     "User input processing",
+     "String handling",
+     "Interactive programming"
+    ],
+    "evidence_pdf": "sit102/evidence/hello_user_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 4
+   },
+   {
+    "id": "sit102-005",
+    "title": "Structs and Enums",
+    "category": "cpp",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Custom data types using structures and enumerations",
+    "description": "A program demonstrating the use of structures (structs) and enumerations (enums) in C++. These powerful concepts allow for creating organized and maintainable code by defining custom data types that model real-world objects and systems.",
+    "key_features": [
+     "Structure definition and usage",
+     "Enumeration creation",
+     "Custom data type implementation",
+     "Organized data management"
+    ],
+    "technical_stack": [
+     "C++"
+    ],
+    "skills_demonstrated": [
+     "Custom data type design",
+     "Data organization",
+     "Code maintainability"
+    ],
+    "evidence_pdf": "sit102/evidence/structs_enums_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   },
+   {
+    "id": "sit102-006",
+    "title": "Arrays and Vectors",
+    "category": "algorithms",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Working with arrays and vectors in C++",
+    "description": "A comprehensive exploration of arrays and vectors in C++. This task demonstrates understanding of indexed data structures, memory allocation, iteration, and manipulation of collections of data elements.",
+    "key_features": [
+     "Array declaration and usage",
+     "Vector operations",
+     "Index-based access",
+     "Iteration and traversal",
+     "Data manipulation"
+    ],
+    "technical_stack": [
+     "C++"
+    ],
+    "skills_demonstrated": [
+     "Array operations",
+     "Vector manipulation",
+     "Index-based data access",
+     "Memory management with arrays"
+    ],
+    "evidence_pdf": "sit102/evidence/arrays_vectors_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   },
+   {
+    "id": "sit102-007",
+    "title": "Sort Visualiser",
+    "category": "algorithms",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Educational tool for visualizing sorting algorithms",
+    "description": "An educational tool designed to visualize how different sorting algorithms operate in real-time. Features graphical representation of data movement and comparison during sort operations, making complex algorithmic concepts understandable through visual demonstration.",
+    "key_features": [
+     "Real-time sorting visualization",
+     "Multiple algorithm support",
+     "Graphical data representation",
+     "Animation of comparisons and swaps",
+     "Educational UI design"
+    ],
+    "technical_stack": [
+     "C++",
+     "SplashKit"
+    ],
+    "skills_demonstrated": [
+     "Algorithm implementation",
+     "Data structure visualization",
+     "UI/UX design for education",
+     "Animation programming"
+    ],
+    "evidence_pdf": "sit102/evidence/sort_visualizer_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 7
+   },
+   {
+    "id": "sit102-008",
+    "title": "Game Project Part 1",
+    "category": "game-development",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "First part of sprite-based game development",
+    "description": "The first part of a comprehensive game development project. This part focuses on setting up the game foundation including sprite creation, bitmap handling, and basic game loop implementation using SplashKit library.",
+    "key_features": [
+     "Sprite creation and animation",
+     "Bitmap management",
+     "Game loop fundamentals",
+     "Basic game state setup"
+    ],
+    "technical_stack": [
+     "C++",
+     "SplashKit"
+    ],
+    "skills_demonstrated": [
+     "Game development basics",
+     "Sprite programming",
+     "Animation systems"
+    ],
+    "evidence_pdf": "sit102/evidence/game_project_part1_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 8
+   },
+   {
+    "id": "sit102-009",
+    "title": "Game Project Part 2",
+    "category": "game-development",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Complete game with collision and user input",
+    "description": "The second and final part of the game development project. This part adds sophisticated features including collision detection, user input handling, game state management, and completes the interactive gameplay experience.",
+    "key_features": [
+     "Collision detection",
+     "User input handling",
+     "Game state management",
+     "Complete gameplay implementation",
+     "Score tracking"
+    ],
+    "technical_stack": [
+     "C++",
+     "SplashKit"
+    ],
+    "skills_demonstrated": [
+     "Advanced game development",
+     "Collision algorithms",
+     "Input handling systems",
+     "Game architecture"
+    ],
+    "evidence_pdf": "sit102/evidence/game_project_part2_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 9
+   },
+   {
+    "id": "sit102-010",
+    "title": "Custom Invoice Generator",
+    "category": "cpp",
+    "year": 2022,
+    "type": "custom-program",
+    "short_description": "Advanced invoice generator with QR code support",
+    "description": "A complex custom program that automates invoice creation with professional formatting. Includes an advanced out-of-scope feature: QR Code generation. Demonstrates integration of multiple complex programming concepts and professional software development practices.",
+    "key_features": [
+     "Automated invoice generation",
+     "Professional formatting",
+     "QR code generation",
+     "Data validation",
+     "Error handling",
+     "Professional documentation"
+    ],
+    "technical_stack": [
+     "C++",
+     "QR Code Libraries"
+    ],
+    "skills_demonstrated": [
+     "Complex program integration",
+     "External library integration",
+     "Professional code organization",
+     "Documentation practices"
+    ],
+    "evidence_pdf": "sit102/evidence/custom_program_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 10
+   },
+   {
+    "id": "sit102-011",
+    "title": "Linked Lists",
+    "category": "algorithms",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Implementation of linked list data structure",
+    "description": "An implementation of the linked list data structure in C++. Demonstrates understanding of dynamic memory allocation, pointer manipulation, and complex data structure design for efficient data management.",
+    "key_features": [
+     "Node creation and linking",
+     "Pointer manipulation",
+     "Dynamic memory allocation",
+     "Insertion and deletion operations",
+     "Traversal algorithms"
+    ],
+    "technical_stack": [
+     "C++"
+    ],
+    "skills_demonstrated": [
+     "Pointer manipulation",
+     "Dynamic data structures",
+     "Memory management",
+     "Algorithm design"
+    ],
+    "evidence_pdf": "sit102/evidence/linked_lists_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 11
+   },
+   {
+    "id": "sit102-012",
+    "title": "Something Awesome",
+    "category": "cpp",
+    "year": 2022,
+    "type": "high-distinction",
+    "short_description": "Additional advanced features for custom program",
+    "description": "Additional advanced features implemented for the custom invoice generator program. This high-distinction level work extends beyond unit requirements to demonstrate extra creativity, technical skill, and innovation in software development.",
+    "key_features": [
+     "Advanced QR code features",
+     "Enhanced invoice templates",
+     "Additional automation features",
+     "User experience improvements"
+    ],
+    "technical_stack": [
+     "C++",
+     "Advanced Libraries"
+    ],
+    "skills_demonstrated": [
+     "Creative problem solving",
+     "Advanced implementation skills",
+     "Going beyond requirements",
+     "Technical innovation"
+    ],
+    "evidence_pdf": "sit102/evidence/something_awesome_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 12
+   }
+  ],
+  "key_learnings": [
+   "C++ programming fundamentals",
+   "Procedural programming concepts",
+   "Pointers and memory management",
+   "Data structures (arrays, vectors, linked lists)",
+   "Structures and enumerations",
+   "SplashKit multimedia library",
+   "Game development basics",
+   "Algorithm implementation"
+  ],
+  "tools_used": [
+   "C++",
+   "SplashKit",
+   "Visual Studio Code",
+   "Clang++",
+   "Terminal"
+  ]
+ },
+ {
+  "unit_code": "SIT111",
+  "unit_name": "Computer Systems",
+  "semester": "Trimester 2, 2022",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers computer systems fundamentals including hardware and software layers, data representation, computer architecture, operating systems, and low-level programming. Topics include Hack Assembly language, CPU design, memory systems, I/O, security, and ethical considerations in computing.",
+  "projects": [
+   {
+    "id": "sit111-001",
+    "title": "Computer Systems Overview",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Introduction to computer system components and layers",
+    "description": "An comprehensive overview of computer systems covering hardware components, software layers, and how they work together. Demonstrates understanding of the layered architecture of modern computer systems and the purpose of each layer.",
+    "key_features": [
+     "Hardware components overview",
+     "Software layers explanation",
+     "System abstraction concepts",
+     "Component interaction"
+    ],
+    "technical_stack": [
+     "Computer Architecture",
+     "Systems Theory"
+    ],
+    "skills_demonstrated": [
+     "Systems thinking",
+     "Component analysis",
+     "Technical writing"
+    ],
+    "evidence_pdf": "sit111/evidence/computer_systems_overview_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit111-002",
+    "title": "Hardware Software Abstractions",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Layers of abstraction in computer system design",
+    "description": "Detailed exploration of hardware and software abstraction layers used in computer system design. Explains how complexity is managed through layered architecture and the purpose of each abstraction level.",
+    "key_features": [
+     "Abstraction layer analysis",
+     "Hardware-software interaction",
+     "Complexity management",
+     "System design principles"
+    ],
+    "technical_stack": [
+     "System Design",
+     "Computer Architecture"
+    ],
+    "skills_demonstrated": [
+     "Abstraction understanding",
+     "System design analysis",
+     "Technical documentation"
+    ],
+    "evidence_pdf": "sit111/evidence/hardware_software_abstractions_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit111-003",
+    "title": "Data Representation",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Binary, hexadecimal and data encoding methods",
+    "description": "Study of how data is represented in computer systems including binary, hexadecimal, ASCII, Unicode, and various encoding schemes. Demonstrates understanding of low-level data representation.",
+    "key_features": [
+     "Binary number system",
+     "Hexadecimal representation",
+     "Character encoding (ASCII, Unicode)",
+     "Floating point representation"
+    ],
+    "technical_stack": [
+     "Data Encoding",
+     "Number Systems"
+    ],
+    "skills_demonstrated": [
+     "Number base conversion",
+     "Data encoding understanding",
+     "Low-level data representation"
+    ],
+    "evidence_pdf": "sit111/evidence/data_representation_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit111-004",
+    "title": "Computer Architecture",
+    "category": "analysis",
+    "year": 2022,
+    "type": "credit",
+    "short_description": "CPU, memory and system architecture",
+    "description": "Comprehensive study of computer architecture including CPU design, memory hierarchy, bus systems, and how components interact. Covers both theoretical concepts and practical implementations.",
+    "key_features": [
+     "CPU architecture",
+     "Memory hierarchy",
+     "Bus systems",
+     "Instruction execution"
+    ],
+    "technical_stack": [
+     "Computer Architecture",
+     "Digital Logic"
+    ],
+    "skills_demonstrated": [
+     "Architecture analysis",
+     "System component understanding",
+     "Performance considerations"
+    ],
+    "evidence_pdf": "sit111/evidence/computer_architecture_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit111-005",
+    "title": "Operating Systems",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "OS concepts including process management and scheduling",
+    "description": "Exploration of operating system concepts including process management, memory management, file systems, and scheduling algorithms. Demonstrates understanding of how OS manages computer resources.",
+    "key_features": [
+     "Process management",
+     "Memory management",
+     "File systems",
+     "CPU scheduling"
+    ],
+    "technical_stack": [
+     "Operating Systems",
+     "Systems Programming"
+    ],
+    "skills_demonstrated": [
+     "OS concepts understanding",
+     "Resource management",
+     "Scheduling algorithms"
+    ],
+    "evidence_pdf": "sit111/evidence/operating_systems_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 5
+   },
+   {
+    "id": "sit111-006",
+    "title": "Hack Assembly Language",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Low-level programming in Hack Assembly",
+    "description": "Programming in Hack Assembly language as part of the From Nand to Tetris course. Demonstrates understanding of low-level programming, machine instructions, and how high-level concepts translate to hardware.",
+    "key_features": [
+     "Assembly language syntax",
+     "Machine instructions",
+     "Register usage",
+     "Memory addressing"
+    ],
+    "technical_stack": [
+     "Hack Assembly",
+     "Low-level Programming"
+    ],
+    "skills_demonstrated": [
+     "Assembly programming",
+     "Hardware understanding",
+     "Instruction execution"
+    ],
+    "evidence_pdf": "sit111/evidence/hack_assembly_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   },
+   {
+    "id": "sit111-007",
+    "title": "CPU Design",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "CPU components and instruction cycle",
+    "description": "Study of CPU design including ALU, control unit, registers, and the instruction execution cycle. Explores how instructions are fetched, decoded, and executed.",
+    "key_features": [
+     "ALU design",
+     "Control unit",
+     "Instruction cycle",
+     "Pipeline processing"
+    ],
+    "technical_stack": [
+     "CPU Architecture",
+     "Digital Design"
+    ],
+    "skills_demonstrated": [
+     "CPU components understanding",
+     "Instruction processing",
+     "Performance optimization"
+    ],
+    "evidence_pdf": "sit111/evidence/cpu_design_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 7
+   },
+   {
+    "id": "sit111-008",
+    "title": "Memory and Storage",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Memory hierarchy and storage systems",
+    "description": "Comprehensive study of memory and storage systems including RAM, ROM, cache, and secondary storage. Explores the memory hierarchy and performance optimization through caching.",
+    "key_features": [
+     "RAM and ROM",
+     "Cache memory",
+     "Virtual memory",
+     "Storage devices"
+    ],
+    "technical_stack": [
+     "Memory Systems",
+     "Storage Technology"
+    ],
+    "skills_demonstrated": [
+     "Memory hierarchy understanding",
+     "Performance optimization",
+     "Storage management"
+    ],
+    "evidence_pdf": "sit111/evidence/memory_storage_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 8
+   },
+   {
+    "id": "sit111-009",
+    "title": "I/O Systems",
+    "category": "analysis",
+    "year": 2022,
+    "type": "distinction",
+    "short_description": "Input/output systems and device communication",
+    "description": "Study of I/O systems including device drivers, interrupts, DMA, and various I/O interfaces. Explores how computers communicate with external devices and manage data transfer.",
+    "key_features": [
+     "Device communication",
+     "Interrupt handling",
+     "DMA transfers",
+     "I/O interfaces"
+    ],
+    "technical_stack": [
+     "I/O Systems",
+     "Device Drivers"
+    ],
+    "skills_demonstrated": [
+     "I/O architecture understanding",
+     "Device communication",
+     "System integration"
+    ],
+    "evidence_pdf": "sit111/evidence/io_systems_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 9
+   },
+   {
+    "id": "sit111-010",
+    "title": "System Security",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Computer security fundamentals and threats",
+    "description": "Introduction to computer security including common threats, vulnerabilities, and security measures. Explores how to protect computer systems from various attacks.",
+    "key_features": [
+     "Security threats",
+     "Vulnerability analysis",
+     "Protection mechanisms",
+     "Access control"
+    ],
+    "technical_stack": [
+     "Cybersecurity",
+     "System Security"
+    ],
+    "skills_demonstrated": [
+     "Security analysis",
+     "Threat identification",
+     "Protection strategies"
+    ],
+    "evidence_pdf": "sit111/evidence/system_security_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 10
+   },
+   {
+    "id": "sit111-011",
+    "title": "Networking Fundamentals",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Network protocols and communication",
+    "description": "Study of computer networking fundamentals including OSI model, TCP/IP, and network protocols. Explores how computers communicate over networks.",
+    "key_features": [
+     "OSI model",
+     "TCP/IP protocol suite",
+     "Network devices",
+     "Data transmission"
+    ],
+    "technical_stack": [
+     "Networking",
+     "Protocols"
+    ],
+    "skills_demonstrated": [
+     "Network understanding",
+     "Protocol analysis",
+     "Communication systems"
+    ],
+    "evidence_pdf": "sit111/evidence/networking_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 11
+   },
+   {
+    "id": "sit111-012",
+    "title": "Database Systems",
+    "category": "analysis",
+    "year": 2022,
+    "type": "credit",
+    "short_description": "Database concepts and SQL",
+    "description": "Introduction to database systems including data modeling, relational databases, and SQL queries. Demonstrates understanding of data management concepts.",
+    "key_features": [
+     "Data modeling",
+     "Relational databases",
+     "SQL queries",
+     "Database design"
+    ],
+    "technical_stack": [
+     "SQL",
+     "Databases",
+     "Data Modeling"
+    ],
+    "skills_demonstrated": [
+     "Database concepts",
+     "Query writing",
+     "Data management"
+    ],
+    "evidence_pdf": "sit111/evidence/database_systems_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 12
+   },
+   {
+    "id": "sit111-013",
+    "title": "Troubleshooting Methods",
+    "category": "analysis",
+    "year": 2022,
+    "type": "credit",
+    "short_description": "System troubleshooting and problem solving",
+    "description": "Systematic approach to troubleshooting computer systems including diagnostic techniques, problem identification, and solution implementation.",
+    "key_features": [
+     "Diagnostic techniques",
+     "Problem identification",
+     "Root cause analysis",
+     "Solution implementation"
+    ],
+    "technical_stack": [
+     "Troubleshooting",
+     "Diagnostics"
+    ],
+    "skills_demonstrated": [
+     "Problem solving",
+     "Systematic debugging",
+     "Technical analysis"
+    ],
+    "evidence_pdf": "sit111/evidence/troubleshooting_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 13
+   },
+   {
+    "id": "sit111-014",
+    "title": "System Integration",
+    "category": "analysis",
+    "year": 2022,
+    "type": "distinction",
+    "short_description": "Integrating computer system components",
+    "description": "Comprehensive project on system integration demonstrating how various computer system components work together. Covers the complete system from hardware to application layer.",
+    "key_features": [
+     "Component integration",
+     "System testing",
+     "Performance validation",
+     "Full system overview"
+    ],
+    "technical_stack": [
+     "System Integration",
+     "Testing"
+    ],
+    "skills_demonstrated": [
+     "Integration skills",
+     "System validation",
+     "Comprehensive testing"
+    ],
+    "evidence_pdf": "sit111/evidence/system_integration_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 14
+   },
+   {
+    "id": "sit111-015",
+    "title": "Ethics in Computing",
+    "category": "analysis",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Ethical considerations in technology",
+    "description": "Exploration of ethical issues in computing including privacy, intellectual property, professional responsibility, and the social impact of technology.",
+    "key_features": [
+     "Privacy concerns",
+     "Intellectual property",
+     "Professional ethics",
+     "Social impact"
+    ],
+    "technical_stack": [
+     "Ethics",
+     "Professional Practice"
+    ],
+    "skills_demonstrated": [
+     "Ethical reasoning",
+     "Professional judgment",
+     "Social awareness"
+    ],
+    "evidence_pdf": "sit111/evidence/ethics_computing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 15
+   },
+   {
+    "id": "sit111-016",
+    "title": "Future of Computing",
+    "category": "analysis",
+    "year": 2022,
+    "type": "distinction",
+    "short_description": "Emerging trends and future technologies",
+    "description": "Analysis of emerging trends in computing including quantum computing, AI,\u7269\u8054\u7f51 (IoT), and future directions of technology. Explores how current developments will shape future computing.",
+    "key_features": [
+     "Quantum computing",
+     "Artificial intelligence",
+     "IoT developments",
+     "Future predictions"
+    ],
+    "technical_stack": [
+     "Emerging Technology",
+     "Research"
+    ],
+    "skills_demonstrated": [
+     "Trend analysis",
+     "Future prediction",
+     "Technology assessment"
+    ],
+    "evidence_pdf": "sit111/evidence/future_computing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 16
+   },
+   {
+    "id": "sit111-017",
+    "title": "Helping Others",
+    "category": "analysis",
+    "year": 2022,
+    "type": "high-distinction",
+    "short_description": "HD task - Assisting peers with learning",
+    "description": "High Distinction task demonstrating contribution to helping others learn computer systems concepts. Shows commitment to academic community and peer support.",
+    "key_features": [
+     "Peer tutoring",
+     "Knowledge sharing",
+     "Community contribution",
+     "Leadership"
+    ],
+    "technical_stack": [
+     "Teaching",
+     "Communication"
+    ],
+    "skills_demonstrated": [
+     "Communication",
+     "Patience",
+     "Knowledge sharing"
+    ],
+    "evidence_pdf": "sit111/evidence/helping_others_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 17
+   },
+   {
+    "id": "sit111-018",
+    "title": "Something Awesome",
+    "category": "analysis",
+    "year": 2022,
+    "type": "high-distinction",
+    "short_description": "HD task - Creative technical project",
+    "description": "High Distinction creative project demonstrating advanced understanding of computer systems through an innovative technical implementation.",
+    "key_features": [
+     "Innovation",
+     "Advanced implementation",
+     "Creative problem solving",
+     "Technical excellence"
+    ],
+    "technical_stack": [
+     "Creative Development",
+     "Advanced Systems"
+    ],
+    "skills_demonstrated": [
+     "Innovation",
+     "Advanced technical skills",
+     "Creative thinking"
+    ],
+    "evidence_pdf": "sit111/evidence/something_awesome_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 18
+   }
+  ],
+  "key_learnings": [
+   "Computer system architecture",
+   "Data representation and encoding",
+   "Operating systems concepts",
+   "Low-level programming (Hack Assembly)",
+   "CPU and memory design",
+   "I/O systems and device communication",
+   "System security fundamentals",
+   "Ethics in computing"
+  ],
+  "tools_used": [
+   "Hack Assembly",
+   "From Nand to Tetris",
+   "System Design Tools"
+  ]
+ },
+ {
+  "unit_code": "SIT313",
+  "unit_name": "Full-Stack Development: Secure Frontend Applications",
+  "semester": "Trimester 1, 2023",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers full-stack development fundamentals, including frontend development with React, backend integration, Firebase authentication, and secure coding practices. I developed skills in React, Firebase, Express.js, and modern web application development.",
+  "projects": [
+   {
+    "id": "sit313-001",
+    "title": "Personal Website",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Creating a personal website using HTML and CSS",
+    "description": "This task involved creating a personal website using HTML and CSS. Demonstrates understanding of fundamental web development concepts including semantic HTML, CSS styling, responsive design, and basic web accessibility principles.",
+    "key_features": [
+     "Semantic HTML structure",
+     "CSS styling and layout",
+     "Responsive design implementation",
+     "Portfolio showcase",
+     "Contact information section"
+    ],
+    "technical_stack": [
+     "HTML",
+     "CSS",
+     "Responsive Design"
+    ],
+    "skills_demonstrated": [
+     "Web development fundamentals",
+     "CSS layout techniques",
+     "Semantic markup",
+     "Responsive design"
+    ],
+    "learning_outcomes": [
+     "Create responsive websites",
+     "Implement semantic HTML",
+     "Style web pages with CSS"
+    ],
+    "evidence_pdf": "sit313/evidence/personal_website_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit313-002",
+    "title": "Welcome Email",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Creating a welcome email for Deakin University",
+    "description": "This task involved creating a professional welcome email for Deakin University. Demonstrates understanding of email HTML, responsive email design, and professional communication through digital channels.",
+    "key_features": [
+     "Email HTML development",
+     "Cross-client email compatibility",
+     "Responsive email design",
+     "Professional styling"
+    ],
+    "technical_stack": [
+     "HTML",
+     "CSS",
+     "Email Development"
+    ],
+    "skills_demonstrated": [
+     "Email template development",
+     "HTML email coding",
+     "Cross-client compatibility"
+    ],
+    "learning_outcomes": [
+     "Create responsive email templates",
+     "Design for multiple email clients",
+     "Implement professional email communication"
+    ],
+    "evidence_pdf": "sit313/evidence/welcome_email_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit313-003",
+    "title": "Home Page with React",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Designing a home page using React and Chakra UI",
+    "description": "This task involved designing a home page for the DEV@Deakin application using React and Chakra UI. Demonstrates understanding of React components, state management, and modern UI component libraries.",
+    "key_features": [
+     "React component development",
+     "Chakra UI integration",
+     "Responsive home page layout",
+     "Component-based architecture",
+     "State management"
+    ],
+    "technical_stack": [
+     "React",
+     "Chakra UI",
+     "JavaScript",
+     "Tailwind CSS"
+    ],
+    "skills_demonstrated": [
+     "React development",
+     "UI component libraries",
+     "Modern frontend development",
+     "Responsive design"
+    ],
+    "learning_outcomes": [
+     "Build React applications",
+     "Integrate UI component libraries",
+     "Create responsive layouts"
+    ],
+    "evidence_pdf": "sit313/evidence/home_page_react_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit313-004",
+    "title": "New Post Page",
+    "category": "web",
+    "year": 2023,
+    "type": "credit",
+    "short_description": "Creating a new post page for articles and questions",
+    "description": "This task involved creating a new post page for the DEV@Deakin application. Demonstrates understanding of form development, user input handling, and content creation interfaces in React applications.",
+    "key_features": [
+     "Form development in React",
+     "Article and question posting",
+     "User input validation",
+     "Rich content editing"
+    ],
+    "technical_stack": [
+     "React",
+     "Chakra UI",
+     "Form Handling"
+    ],
+    "skills_demonstrated": [
+     "React form development",
+     "User input management",
+     "Content creation interfaces"
+    ],
+    "learning_outcomes": [
+     "Create interactive forms",
+     "Handle user input in React",
+     "Build content management interfaces"
+    ],
+    "evidence_pdf": "sit313/evidence/new_post_page_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 4
+   },
+   {
+    "id": "sit313-005",
+    "title": "Login & Registration Page",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Building login and registration pages with Firebase Authentication",
+    "description": "This task involved building login and registration pages with Firebase Authentication. Demonstrates understanding of user authentication, form validation, secure login flows, and integration with Firebase Auth.",
+    "key_features": [
+     "Firebase Authentication integration",
+     "Email/password login",
+     "User registration",
+     "Form validation",
+     "Secure authentication flows"
+    ],
+    "technical_stack": [
+     "React",
+     "Firebase Authentication",
+     "Chakra UI"
+    ],
+    "skills_demonstrated": [
+     "Firebase integration",
+     "User authentication",
+     "Form validation",
+     "Security best practices"
+    ],
+    "learning_outcomes": [
+     "Implement user authentication",
+     "Integrate Firebase services",
+     "Build secure login systems"
+    ],
+    "evidence_pdf": "sit313/evidence/login_registration_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   },
+   {
+    "id": "sit313-006",
+    "title": "Firestore Integration",
+    "category": "web",
+    "year": 2023,
+    "type": "distinction",
+    "short_description": "Integrating Firestore database for data persistence",
+    "description": "This task involved integrating Firestore database for data persistence in the DEV@Deakin application. Demonstrates understanding of NoSQL databases, real-time data synchronization, and cloud database integration.",
+    "key_features": [
+     "Firestore database integration",
+     "Real-time data synchronization",
+     "CRUD operations",
+     "Query optimization"
+    ],
+    "technical_stack": [
+     "React",
+     "Firebase Firestore",
+     "NoSQL"
+    ],
+    "skills_demonstrated": [
+     "Cloud database integration",
+     "Real-time data management",
+     "NoSQL database design"
+    ],
+    "learning_outcomes": [
+     "Integrate cloud databases",
+     "Implement real-time features",
+     "Design NoSQL data structures"
+    ],
+    "evidence_pdf": "sit313/evidence/firestore_integration_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   },
+   {
+    "id": "sit313-007",
+    "title": "Website Deployment",
+    "category": "web",
+    "year": 2023,
+    "type": "credit",
+    "short_description": "Deploying the web application to Netlify",
+    "description": "This task involved deploying the DEV@Deakin web application to Netlify. Demonstrates understanding of continuous deployment, build processes, and hosting static and dynamic web applications.",
+    "key_features": [
+     "Netlify deployment",
+     "Build optimization",
+     "Environment configuration",
+     "Custom domain setup"
+    ],
+    "technical_stack": [
+     "Netlify",
+     "React",
+     "Build Tools"
+    ],
+    "skills_demonstrated": [
+     "Web application deployment",
+     "Build optimization",
+     "DevOps practices"
+    ],
+    "learning_outcomes": [
+     "Deploy web applications",
+     "Configure build processes",
+     "Manage deployment workflows"
+    ],
+    "evidence_pdf": "sit313/evidence/website_deployment_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 7
+   },
+   {
+    "id": "sit313-008",
+    "title": "Newsletter Feature",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Implementing newsletter subscription functionality",
+    "description": "This task involved implementing newsletter subscription functionality in the signup component. Demonstrates understanding of user engagement features, email subscription systems, and newsletter integration.",
+    "key_features": [
+     "Newsletter subscription UI",
+     "Email capture functionality",
+     "Subscription management",
+     "User preference handling"
+    ],
+    "technical_stack": [
+     "React",
+     "Firebase",
+     "Email Services"
+    ],
+    "skills_demonstrated": [
+     "Feature implementation",
+     "User engagement design",
+     "Integration with email services"
+    ],
+    "learning_outcomes": [
+     "Implement subscription features",
+     "Design user engagement systems",
+     "Integrate third-party services"
+    ],
+    "evidence_pdf": "sit313/evidence/newsletter_feature_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 8
+   },
+   {
+    "id": "sit313-009",
+    "title": "Subscription Plans",
+    "category": "web",
+    "year": 2023,
+    "type": "distinction",
+    "short_description": "Adding subscription plans with Stripe integration",
+    "description": "This task involved adding subscription plans and code editor features. Demonstrates understanding of payment integration, subscription management, and advanced features like CodeMirror integration for code editing.",
+    "key_features": [
+     "Stripe payment integration",
+     "Subscription plan management",
+     "CodeMirror integration",
+     "Premium feature implementation"
+    ],
+    "technical_stack": [
+     "React",
+     "Stripe",
+     "CodeMirror",
+     "Firebase"
+    ],
+    "skills_demonstrated": [
+     "Payment integration",
+     "Premium feature development",
+     "Advanced UI components"
+    ],
+    "learning_outcomes": [
+     "Integrate payment systems",
+     "Build subscription features",
+     "Implement advanced editors"
+    ],
+    "evidence_pdf": "sit313/evidence/subscription_plans_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 9
+   },
+   {
+    "id": "sit313-010",
+    "title": "DEV@DEAKIN Web Application",
+    "category": "web",
+    "year": 2023,
+    "type": "high-distinction",
+    "short_description": "Complete full-stack web application with advanced features",
+    "description": "This high-distinction task involved creating the complete DEV@DEAKIN web application with advanced features including lazy loading, useRef hooks, portals, live chat room, Google/GitHub authentication, dark mode, and gallery section. Demonstrates comprehensive understanding of React development and modern web application architecture.",
+    "key_features": [
+     "Lazy loading optimization",
+     "useRef and useState management",
+     "React Portals for modals",
+     "Live chat room feature",
+     "Google & GitHub OAuth",
+     "Dark mode toggle",
+     "Gallery section",
+     "Code editor integration"
+    ],
+    "technical_stack": [
+     "React",
+     "Firebase",
+     "Chakra UI",
+     "CodeMirror",
+     "React Router",
+     "OAuth"
+    ],
+    "skills_demonstrated": [
+     "Advanced React patterns",
+     "Full-stack application development",
+     "Performance optimization",
+     "User authentication systems",
+     "Real-time features",
+     "Modern UI/UX design"
+    ],
+    "learning_outcomes": [
+     "Build complex React applications",
+     "Implement advanced React features",
+     "Create real-time applications",
+     "Design modern user interfaces"
+    ],
+    "evidence_pdf": "sit313/evidence/dev_deakin_app_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 10
+   }
+  ],
+  "key_learnings": [
+   "React component development",
+   "Firebase authentication and Firestore",
+   "Frontend development best practices",
+   "Secure coding practices",
+   "User authentication systems",
+   "Web application deployment",
+   "Full-stack development fundamentals"
+  ],
+  "tools_used": [
+   "React",
+   "Firebase",
+   "Chakra UI",
+   "Tailwind CSS",
+   "Netlify",
+   "CodeMirror",
+   "React Router"
+  ]
+ },
+ {
+  "unit_code": "SIT182",
+  "unit_name": "Introduction to Data Science",
+  "semester": "Trimester 1, 2023",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers Python programming fundamentals, data structures, algorithms, and practical data science applications. All tasks completed to High Distinction level demonstrating mastery of programming concepts and data analysis skills.",
+  "projects": [
+   {
+    "id": "sit182-001",
+    "title": "Python Fundamentals",
+    "category": "python",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Core Python programming concepts and syntax",
+    "description": "Introduction to Python programming covering variables, data types, operators, control structures, and basic I/O operations. Demonstrates foundational understanding of Python syntax and programming concepts.",
+    "key_features": [
+     "Variables and data types",
+     "Control flow statements",
+     "Functions and modules",
+     "Basic I/O operations"
+    ],
+    "technical_stack": [
+     "Python",
+     "Pandas",
+     "NumPy"
+    ],
+    "skills_demonstrated": [
+     "Python programming",
+     "Syntax understanding",
+     "Basic problem solving"
+    ],
+    "evidence_pdf": "sit182/evidence/python_fundamentals_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit182-002",
+    "title": "Data Structures",
+    "category": "python",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Python data structures and collections",
+    "description": "Comprehensive study of Python data structures including lists, dictionaries, sets, tuples, and their operations. Demonstrates understanding of when and how to use different data structures effectively.",
+    "key_features": [
+     "Lists and arrays",
+     "Dictionaries and maps",
+     "Sets and tuples",
+     "Data structure operations"
+    ],
+    "technical_stack": [
+     "Python",
+     "Data Structures"
+    ],
+    "skills_demonstrated": [
+     "Data structure usage",
+     "Collection manipulation",
+     "Algorithm implementation"
+    ],
+    "evidence_pdf": "sit182/evidence/data_structures_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit182-003",
+    "title": "Algorithms",
+    "category": "algorithms",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Algorithm design and implementation",
+    "description": "Implementation of various algorithms including sorting, searching, and recursive algorithms. Demonstrates understanding of algorithm complexity and efficient problem-solving approaches.",
+    "key_features": [
+     "Sorting algorithms",
+     "Search algorithms",
+     "Recursion",
+     "Complexity analysis"
+    ],
+    "technical_stack": [
+     "Python",
+     "Algorithms"
+    ],
+    "skills_demonstrated": [
+     "Algorithm design",
+     "Complexity analysis",
+     "Problem solving"
+    ],
+    "evidence_pdf": "sit182/evidence/algorithms_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit182-004",
+    "title": "File Handling",
+    "category": "python",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Reading, writing, and processing files",
+    "description": "Working with files in Python including text files, CSV files, and JSON files. Demonstrates ability to process and manipulate data stored in various file formats.",
+    "key_features": [
+     "Text file operations",
+     "CSV parsing and writing",
+     "JSON handling",
+     "File system operations"
+    ],
+    "technical_stack": [
+     "Python",
+     "CSV",
+     "JSON"
+    ],
+    "skills_demonstrated": [
+     "File I/O operations",
+     "Data parsing",
+     "Data serialization"
+    ],
+    "evidence_pdf": "sit182/evidence/file_handling_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 4
+   },
+   {
+    "id": "sit182-005",
+    "title": "OOP Concepts",
+    "category": "python",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Object-oriented programming in Python",
+    "description": "Introduction to object-oriented programming concepts in Python including classes, objects, inheritance, and polymorphism. Demonstrates understanding of OOP principles and their application.",
+    "key_features": [
+     "Classes and objects",
+     "Inheritance",
+     "Polymorphism",
+     "Encapsulation"
+    ],
+    "technical_stack": [
+     "Python",
+     "OOP"
+    ],
+    "skills_demonstrated": [
+     "OOP design",
+     "Class implementation",
+     "Inheritance patterns"
+    ],
+    "evidence_pdf": "sit182/evidence/oop_concepts_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   },
+   {
+    "id": "sit182-006",
+    "title": "Web Scraping",
+    "category": "python",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Extracting data from websites",
+    "description": "Web scraping techniques using Python libraries to extract data from websites. Demonstrates ability to parse HTML, navigate web pages, and collect data programmatically.",
+    "key_features": [
+     "HTML parsing",
+     "BeautifulSoup usage",
+     "Requests library",
+     "Data extraction"
+    ],
+    "technical_stack": [
+     "Python",
+     "BeautifulSoup",
+     "Requests"
+    ],
+    "skills_demonstrated": [
+     "Web scraping",
+     "HTML parsing",
+     "Data extraction"
+    ],
+    "evidence_pdf": "sit182/evidence/web_scraping_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 6
+   },
+   {
+    "id": "sit182-007",
+    "title": "Data Analysis",
+    "category": "python",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Data analysis and visualization",
+    "description": "Data analysis project using Python libraries to process, analyze, and visualize data. Demonstrates ability to work with real datasets and extract meaningful insights.",
+    "key_features": [
+     "Data cleaning",
+     "Statistical analysis",
+     "Data visualization",
+     "Insight generation"
+    ],
+    "technical_stack": [
+     "Python",
+     "Pandas",
+     "Matplotlib",
+     "NumPy"
+    ],
+    "skills_demonstrated": [
+     "Data analysis",
+     "Visualization",
+     "Statistical methods"
+    ],
+    "evidence_pdf": "sit182/evidence/data_analysis_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 7
+   },
+   {
+    "id": "sit182-008",
+    "title": "Automation Scripts",
+    "category": "python",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Practical automation solutions",
+    "description": "Development of automation scripts to solve real-world problems. Demonstrates ability to apply Python programming skills to create practical solutions.",
+    "key_features": [
+     "Task automation",
+     "Script development",
+     "Problem solving",
+     "Efficiency improvement"
+    ],
+    "technical_stack": [
+     "Python",
+     "Automation"
+    ],
+    "skills_demonstrated": [
+     "Automation development",
+     "Practical programming",
+     "Problem solving"
+    ],
+    "evidence_pdf": "sit182/evidence/automation_scripts_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 8
+   }
+  ],
+  "key_learnings": [
+   "Python programming fundamentals",
+   "Data structures and algorithms",
+   "File handling and data formats",
+   "Object-oriented programming",
+   "Web scraping techniques",
+   "Data analysis and visualization"
+  ],
+  "tools_used": [
+   "Python",
+   "Pandas",
+   "NumPy",
+   "BeautifulSoup",
+   "Matplotlib"
+  ]
+ },
+ {
+  "unit_code": "SIT210",
+  "unit_name": "Embedded Systems Development",
+  "semester": "Trimester 3, 2022",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers embedded systems development including microcontrollers, RTOS, sensor interfacing, and IoT communication protocols. All HD tasks completed demonstrating mastery of embedded systems concepts and practical implementation skills.",
+  "projects": [
+   {
+    "id": "sit210-001",
+    "title": "Embedded Systems Basics",
+    "category": "iot",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Introduction to embedded systems and microcontroller programming",
+    "description": "Introduction to embedded systems concepts including microcontroller architecture, GPIO programming, and basic I/O operations. Demonstrates foundational understanding of embedded development.",
+    "key_features": [
+     "Microcontroller basics",
+     "GPIO programming",
+     "Digital I/O operations",
+     "LED control"
+    ],
+    "technical_stack": [
+     "C++",
+     "Embedded C",
+     "Microcontrollers"
+    ],
+    "skills_demonstrated": [
+     "Embedded programming",
+     "Hardware interfacing",
+     "Low-level development"
+    ],
+    "evidence_pdf": "sit210/evidence/embedded_systems_basics_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit210-002",
+    "title": "Microcontroller Programming",
+    "category": "iot",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Advanced microcontroller programming and peripherals",
+    "description": "Programming microcontrollers with advanced features including timers, interrupts, PWM, and communication interfaces. Demonstrates proficiency in embedded peripheral programming.",
+    "key_features": [
+     "Timer configuration",
+     "Interrupt handling",
+     "PWM control",
+     "Serial communication"
+    ],
+    "technical_stack": [
+     "C++",
+     "Arduino",
+     "Embedded Systems"
+    ],
+    "skills_demonstrated": [
+     "Peripheral programming",
+     "Interrupt service routines",
+     "Real-time programming"
+    ],
+    "evidence_pdf": "sit210/evidence/microcontroller_programming_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit210-003",
+    "title": "RTOS Concepts",
+    "category": "iot",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Real-time operating systems fundamentals",
+    "description": "Introduction to RTOS concepts including task scheduling, synchronization, and real-time constraints. Demonstrates understanding of multi-tasking in embedded environments.",
+    "key_features": [
+     "Task scheduling",
+     "Task synchronization",
+     "Priority management",
+     "Real-time constraints"
+    ],
+    "technical_stack": [
+     "RTOS",
+     "FreeRTOS",
+     "Task Management"
+    ],
+    "skills_demonstrated": [
+     "Multi-tasking design",
+     "Synchronization primitives",
+     "Real-time analysis"
+    ],
+    "evidence_pdf": "sit210/evidence/rtos_concepts_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit210-004",
+    "title": "Sensor Interfacing",
+    "category": "iot",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "Connecting and programming various sensors",
+    "description": "Interfacing various sensors with microcontrollers including temperature, humidity, motion, and environmental sensors. Demonstrates ability to work with analog and digital sensors.",
+    "key_features": [
+     "Analog sensor interfacing",
+     "Digital sensor protocols",
+     "Data acquisition",
+     "Sensor calibration"
+    ],
+    "technical_stack": [
+     "Sensors",
+     "ADC/DAC",
+     "I2C",
+     "SPI"
+    ],
+    "skills_demonstrated": [
+     "Sensor integration",
+     "Data acquisition",
+     "Signal conditioning"
+    ],
+    "evidence_pdf": "sit210/evidence/sensor_interfacing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit210-005",
+    "title": "MQTT Communication",
+    "category": "iot",
+    "year": 2022,
+    "type": "assignment",
+    "short_description": "IoT communication using MQTT protocol",
+    "description": "Implementation of IoT communication using MQTT protocol for device-to-device and device-to-cloud communication. Demonstrates understanding of publish-subscribe patterns.",
+    "key_features": [
+     "MQTT protocol",
+     "Broker configuration",
+     "Publish-subscribe model",
+     "Topic design"
+    ],
+    "technical_stack": [
+     "MQTT",
+     "HiveMQ",
+     "IoT Protocols"
+    ],
+    "skills_demonstrated": [
+     "IoT communication",
+     "Protocol implementation",
+     "Network programming"
+    ],
+    "evidence_pdf": "sit210/evidence/mqtt_communication_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   },
+   {
+    "id": "sit210-006",
+    "title": "School Bus Monitoring System",
+    "category": "iot",
+    "year": 2022,
+    "type": "high-distinction",
+    "short_description": "Complete IoT project for school bus monitoring",
+    "description": "Comprehensive IoT project implementing a school bus monitoring system with real-time tracking, student attendance, and parent notifications. Demonstrates integration of multiple embedded systems concepts.",
+    "key_features": [
+     "Real-time tracking",
+     "Attendance system",
+     "Cloud integration",
+     "Parent notifications",
+     "Mobile app interface"
+    ],
+    "technical_stack": [
+     "Raspberry Pi",
+     "Arduino",
+     "MQTT",
+     "Firebase",
+     "Python"
+    ],
+    "skills_demonstrated": [
+     "System integration",
+     "Full-stack IoT development",
+     "Cloud connectivity",
+     "Real-time processing"
+    ],
+    "evidence_pdf": "sit210/evidence/school_bus_monitoring_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   }
+  ],
+  "key_learnings": [
+   "Embedded systems fundamentals",
+   "Microcontroller programming",
+   "RTOS and task management",
+   "Sensor interfacing",
+   "IoT communication protocols",
+   "System integration"
+  ],
+  "tools_used": [
+   "Arduino",
+   "Raspberry Pi",
+   "MQTT",
+   "C++",
+   "Python",
+   "Firebase"
+  ]
+ },
+ {
+  "unit_code": "SIT218",
+  "unit_name": "Robotics Application Development",
+  "semester": "Trimester 2, 2023",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers robotics development including ROS (Robot Operating System), navigation systems, computer vision for robots, and robot control. All tasks completed to High Distinction level.",
+  "projects": [
+   {
+    "id": "sit218-001",
+    "title": "Robotics Fundamentals",
+    "category": "robotics",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Introduction to robotics concepts and systems",
+    "description": "Introduction to robotics fundamentals including robot components, sensors, actuators, and control systems. Demonstrates foundational understanding of robotics engineering.",
+    "key_features": [
+     "Robot components",
+     "Sensor systems",
+     "Actuator control",
+     "Basic kinematics"
+    ],
+    "technical_stack": [
+     "ROS",
+     "Python",
+     "Robotics Fundamentals"
+    ],
+    "skills_demonstrated": [
+     "Robotics concepts",
+     "System understanding",
+     "Basic programming"
+    ],
+    "evidence_pdf": "sit218/evidence/robotics_fundamentals_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit218-002",
+    "title": "ROS Basics",
+    "category": "robotics",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Robot Operating System fundamentals",
+    "description": "Introduction to ROS (Robot Operating System) including nodes, topics, messages, and services. Demonstrates understanding of the ROS ecosystem and how to create basic robot applications.",
+    "key_features": [
+     "ROS nodes",
+     "Topic publishing",
+     "Service calls",
+     "ROS packages"
+    ],
+    "technical_stack": [
+     "ROS",
+     "Python",
+     "C++"
+    ],
+    "skills_demonstrated": [
+     "ROS development",
+     "Node communication",
+     "Package creation"
+    ],
+    "evidence_pdf": "sit218/evidence/ros_basics_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit218-003",
+    "title": "Navigation Systems",
+    "category": "robotics",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Robot navigation and path planning",
+    "description": "Implementation of robot navigation systems including path planning, obstacle avoidance, and localization. Demonstrates understanding of autonomous robot navigation.",
+    "key_features": [
+     "Path planning algorithms",
+     "Obstacle avoidance",
+     "Localization",
+     "SLAM basics"
+    ],
+    "technical_stack": [
+     "ROS",
+     "Navigation Stack",
+     "Python"
+    ],
+    "skills_demonstrated": [
+     "Navigation implementation",
+     "Path planning",
+     "Autonomous navigation"
+    ],
+    "evidence_pdf": "sit218/evidence/navigation_systems_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit218-004",
+    "title": "Computer Vision",
+    "category": "robotics",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Vision-based robot perception",
+    "description": "Implementation of computer vision for robot perception including object detection, tracking, and image processing. Demonstrates ability to give robots visual understanding.",
+    "key_features": [
+     "Object detection",
+     "Image processing",
+     "Visual tracking",
+     "Camera integration"
+    ],
+    "technical_stack": [
+     "OpenCV",
+     "ROS",
+     "Python"
+    ],
+    "skills_demonstrated": [
+     "Computer vision",
+     "Image processing",
+     "Visual perception"
+    ],
+    "evidence_pdf": "sit218/evidence/computer_vision_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit218-005",
+    "title": "Robot Control",
+    "category": "robotics",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Robot motion and control systems",
+    "description": "Implementation of robot control systems including motion planning, inverse kinematics, and feedback control. Demonstrates understanding of how to control robot movements.",
+    "key_features": [
+     "Motion planning",
+     "Inverse kinematics",
+     "Feedback control",
+     "Trajectory generation"
+    ],
+    "technical_stack": [
+     "ROS",
+     "Control Theory",
+     "Python"
+    ],
+    "skills_demonstrated": [
+     "Control systems",
+     "Motion planning",
+     "Kinematics"
+    ],
+    "evidence_pdf": "sit218/evidence/robot_control_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   },
+   {
+    "id": "sit218-006",
+    "title": "Integration Project",
+    "category": "robotics",
+    "year": 2023,
+    "type": "high-distinction",
+    "short_description": "Complete robotics integration project",
+    "description": "Comprehensive robotics project integrating all concepts including navigation, computer vision, and control. Demonstrates mastery of robotics development.",
+    "key_features": [
+     "Full system integration",
+     "Multi-modal perception",
+     "Autonomous operation",
+     "Complete implementation"
+    ],
+    "technical_stack": [
+     "ROS",
+     "OpenCV",
+     "Python",
+     "C++"
+    ],
+    "skills_demonstrated": [
+     "System integration",
+     "Complete development",
+     "Advanced robotics"
+    ],
+    "evidence_pdf": "sit218/evidence/integration_project_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   }
+  ],
+  "key_learnings": [
+   "ROS fundamentals",
+   "Robot navigation",
+   "Computer vision for robotics",
+   "Robot control systems",
+   "Integration and testing"
+  ],
+  "tools_used": [
+   "ROS",
+   "OpenCV",
+   "Python",
+   "C++",
+   "Gazebo"
+  ]
+ },
+ {
+  "unit_code": "SIT223",
+  "unit_name": "Professional Practice in IT",
+  "semester": "Trimester 1, 2023",
+  "grade": "High Distinction (A)",
+  "overview": "This unit focuses on professional practice in IT including DevOps, Agile methodologies, Git version control, Jenkins CI/CD pipelines, and professional document preparation. All HD tasks completed demonstrating mastery of professional IT practices.",
+  "projects": [
+   {
+    "id": "sit223-001",
+    "title": "SWOT Analysis",
+    "category": "analysis",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Strategic SWOT analysis for IT professional development",
+    "description": "Comprehensive SWOT (Strengths, Weaknesses, Opportunities, Threats) analysis examining personal and professional capabilities in the IT field. Demonstrates strategic thinking and self-awareness critical for career development.",
+    "key_features": [
+     "Personal strengths identification",
+     "Area for improvement analysis",
+     "Career opportunities mapping",
+     "Threats and challenges assessment"
+    ],
+    "technical_stack": [
+     "Strategic Analysis",
+     "Professional Development"
+    ],
+    "skills_demonstrated": [
+     "Strategic thinking",
+     "Self-assessment",
+     "Professional reflection"
+    ],
+    "evidence_pdf": "sit223/evidence/swot_analysis_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit223-002",
+    "title": "DevOps Pipeline with Jenkins",
+    "category": "devops",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "End-to-end DevOps pipeline setup using Jenkins",
+    "description": "Comprehensive implementation of a continuous integration and deployment pipeline using Jenkins. This project demonstrates understanding of DevOps principles, automated testing, build processes, and deployment strategies. The pipeline successfully automates the software delivery process from code commit to deployment.",
+    "key_features": [
+     "Jenkins pipeline configuration",
+     "Automated build processes",
+     "Continuous integration setup",
+     "Automated testing integration",
+     "Deployment automation"
+    ],
+    "technical_stack": [
+     "Jenkins",
+     "Git",
+     "CI/CD",
+     "DevOps"
+    ],
+    "skills_demonstrated": [
+     "DevOps practices",
+     "Pipeline automation",
+     "Build automation",
+     "Continuous integration"
+    ],
+    "evidence_pdf": "sit223/evidence/devops_pipeline_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit223-003",
+    "title": "Git Version Control",
+    "category": "devops",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Advanced Git version control skills demonstration",
+    "description": "Demonstration of advanced Git version control skills including branching strategies, merge conflict resolution, and collaborative workflows essential for team-based software development.",
+    "key_features": [
+     "Branching and merging",
+     "Conflict resolution",
+     "Collaborative workflows",
+     "Best practices implementation"
+    ],
+    "technical_stack": [
+     "Git",
+     "GitHub",
+     "Version Control"
+    ],
+    "skills_demonstrated": [
+     "Version control management",
+     "Team collaboration",
+     "Code integration"
+    ],
+    "evidence_pdf": "sit223/evidence/git_version_control_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit223-004",
+    "title": "Professional Resume",
+    "category": "professional",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Professional resume development",
+    "description": "Development of a professional resume that effectively presents technical skills and experience to potential employers. Demonstrates ability to quantify achievements and highlight relevant competencies.",
+    "key_features": [
+     "Professional resume writing",
+     "Skills highlighting",
+     "Achievement quantification"
+    ],
+    "technical_stack": [
+     "Professional Communication",
+     "Document Preparation"
+    ],
+    "skills_demonstrated": [
+     "Professional writing",
+     "Self-presentation"
+    ],
+    "evidence_pdf": "sit223/evidence/professional_resume_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit223-005",
+    "title": "Cover Letter",
+    "category": "professional",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Professional cover letter composition",
+    "description": "Development of a persuasive cover letter tailored to specific job applications. Demonstrates professional communication skills and ability to present qualifications effectively.",
+    "key_features": [
+     "Professional cover letter writing",
+     "Persuasive communication",
+     "Tailored job applications"
+    ],
+    "technical_stack": [
+     "Professional Communication",
+     "Document Preparation"
+    ],
+    "skills_demonstrated": [
+     "Professional writing",
+     "Persuasive communication"
+    ],
+    "evidence_pdf": "sit223/evidence/cover_letter_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 5
+   },
+   {
+    "id": "sit223-006",
+    "title": "Team Collaboration",
+    "category": "professional",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Team collaboration and project work",
+    "description": "Demonstration of effective team collaboration skills in IT projects. Shows ability to work effectively in teams, manage conflicts, and achieve shared goals.",
+    "key_features": [
+     "Team communication",
+     "Conflict resolution",
+     "Collaborative problem solving",
+     "Project coordination"
+    ],
+    "technical_stack": [
+     "Team Collaboration",
+     "Project Management"
+    ],
+    "skills_demonstrated": [
+     "Teamwork",
+     "Communication",
+     "Conflict management"
+    ],
+    "evidence_pdf": "sit223/evidence/team_collaboration_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   },
+   {
+    "id": "sit223-007",
+    "title": "Career Planning",
+    "category": "professional",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Strategic career planning in IT",
+    "description": "Comprehensive career planning exercise including goal setting, skill development roadmap, and professional development strategy. Demonstrates forward-thinking approach to career development.",
+    "key_features": [
+     "Career goal setting",
+     "Skill development planning",
+     "Professional development strategy"
+    ],
+    "technical_stack": [
+     "Career Development",
+     "Strategic Planning"
+    ],
+    "skills_demonstrated": [
+     "Strategic planning",
+     "Goal setting",
+     "Self-development"
+    ],
+    "evidence_pdf": "sit223/evidence/career_planning_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 7
+   }
+  ],
+  "key_learnings": [
+   "DevOps principles and practices",
+   "Jenkins CI/CD pipelines",
+   "Git version control best practices",
+   "Professional document preparation",
+   "Team collaboration skills",
+   "Career planning strategies"
+  ],
+  "tools_used": [
+   "Jenkins",
+   "Git",
+   "GitHub",
+   "Agile/Scrum"
+  ]
+ },
+ {
+  "unit_code": "SIT232",
+  "unit_name": "Object-Oriented Development",
+  "semester": "Trimester 2, 2023",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers object-oriented programming (OOP) principles including classes, objects, inheritance, polymorphism, encapsulation, and abstraction using C++. All tasks completed to High Distinction level demonstrating mastery of OOP concepts.",
+  "projects": [
+   {
+    "id": "sit232-001",
+    "title": "OOP Fundamentals",
+    "category": "oop",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Core object-oriented programming concepts",
+    "description": "Introduction to OOP principles including classes, objects, and basic OOP concepts using C++. Demonstrates foundational understanding of object-oriented programming.",
+    "key_features": [
+     "Classes and objects",
+     "Constructor and destructor",
+     "Basic encapsulation",
+     "Member functions"
+    ],
+    "technical_stack": [
+     "C++",
+     "OOP",
+     "Visual Studio Code"
+    ],
+    "skills_demonstrated": [
+     "OOP fundamentals",
+     "Class design",
+     "Object creation"
+    ],
+    "evidence_pdf": "sit232/evidence/oop_fundamentals_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit232-002",
+    "title": "Classes and Objects",
+    "category": "oop",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Advanced class design and object interaction",
+    "description": "In-depth study of C++ classes including member variables, methods, access specifiers, and object interaction patterns. Demonstrates comprehensive understanding of class implementation.",
+    "key_features": [
+     "Member variables and methods",
+     "Access specifiers",
+     "Static members",
+     "Friend functions"
+    ],
+    "technical_stack": [
+     "C++",
+     "OOP"
+    ],
+    "skills_demonstrated": [
+     "Class implementation",
+     "Object design",
+     "Member management"
+    ],
+    "evidence_pdf": "sit232/evidence/classes_and_objects_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit232-003",
+    "title": "Inheritance",
+    "category": "oop",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Class inheritance and derivation",
+    "description": "Study of inheritance in C++ including single and multiple inheritance, base and derived classes, and inheritance hierarchies. Demonstrates understanding of is-a relationships.",
+    "key_features": [
+     "Single inheritance",
+     "Multiple inheritance",
+     "Protected access",
+     "Base class initialization"
+    ],
+    "technical_stack": [
+     "C++",
+     "Inheritance"
+    ],
+    "skills_demonstrated": [
+     "Inheritance implementation",
+     "Class hierarchies",
+     "Polymorphic base classes"
+    ],
+    "evidence_pdf": "sit232/evidence/inheritance_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit232-004",
+    "title": "Polymorphism",
+    "category": "oop",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Runtime and compile-time polymorphism",
+    "description": "Implementation of polymorphism in C++ including virtual functions, function overloading, operator overloading, and runtime polymorphism through inheritance.",
+    "key_features": [
+     "Virtual functions",
+     "Function overloading",
+     "Operator overloading",
+     "Pure virtual functions"
+    ],
+    "technical_stack": [
+     "C++",
+     "Polymorphism",
+     "Virtual Functions"
+    ],
+    "skills_demonstrated": [
+     "Virtual function usage",
+     "Runtime polymorphism",
+     "Operator overloading"
+    ],
+    "evidence_pdf": "sit232/evidence/polymorphism_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit232-005",
+    "title": "Design Patterns",
+    "category": "oop",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Common OOP design patterns",
+    "description": "Study and implementation of common OOP design patterns including Singleton, Factory, Observer, and Strategy patterns. Demonstrates understanding of reusable OOP solutions.",
+    "key_features": [
+     "Singleton pattern",
+     "Factory pattern",
+     "Observer pattern",
+     "Strategy pattern"
+    ],
+    "technical_stack": [
+     "C++",
+     "Design Patterns"
+    ],
+    "skills_demonstrated": [
+     "Pattern implementation",
+     "Design solutions",
+     "Code reusability"
+    ],
+    "evidence_pdf": "sit232/evidence/design_patterns_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   },
+   {
+    "id": "sit232-006",
+    "title": "Unit Testing",
+    "category": "oop",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Testing OOP code",
+    "description": "Implementation of unit tests for C++ classes and objects using testing frameworks. Demonstrates understanding of test-driven development and code quality assurance.",
+    "key_features": [
+     "Test case design",
+     "Test automation",
+     "Code coverage",
+     "Debugging skills"
+    ],
+    "technical_stack": [
+     "C++",
+     "Testing Frameworks"
+    ],
+    "skills_demonstrated": [
+     "Unit testing",
+     "Test-driven development",
+     "Quality assurance"
+    ],
+    "evidence_pdf": "sit232/evidence/unit_testing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 6
+   },
+   {
+    "id": "sit232-007",
+    "title": "Design Principles",
+    "category": "oop",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "OOP design principles and best practices",
+    "description": "Study of OOP design principles including SOLID principles, DRY, KISS, and YAGNI. Demonstrates understanding of maintainable and scalable OOP design.",
+    "key_features": [
+     "SOLID principles",
+     "Code organization",
+     "Design best practices",
+     "Code documentation"
+    ],
+    "technical_stack": [
+     "C++",
+     "Design Principles"
+    ],
+    "skills_demonstrated": [
+     "Design principles",
+     "Code organization",
+     "Best practices"
+    ],
+    "evidence_pdf": "sit232/evidence/design_principles_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 7
+   },
+   {
+    "id": "sit232-008",
+    "title": "Final Project",
+    "category": "oop",
+    "year": 2023,
+    "type": "high-distinction",
+    "short_description": "Comprehensive OOP final project",
+    "description": "Comprehensive final project demonstrating mastery of OOP concepts including classes, inheritance, polymorphism, and design patterns. Applies all learned concepts in a practical application.",
+    "key_features": [
+     "Complete OOP design",
+     "Multiple design patterns",
+     "Professional documentation",
+     "Testing integration"
+    ],
+    "technical_stack": [
+     "C++",
+     "OOP",
+     "Design Patterns"
+    ],
+    "skills_demonstrated": [
+     "Full OOP implementation",
+     "Project design",
+     "Comprehensive testing"
+    ],
+    "evidence_pdf": "sit232/evidence/final_project_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 8
+   }
+  ],
+  "key_learnings": [
+   "OOP fundamental principles",
+   "C++ programming language",
+   "Inheritance and polymorphism",
+   "Encapsulation and abstraction",
+   "Design patterns",
+   "Unit testing"
+  ],
+  "tools_used": [
+   "C++",
+   "Visual Studio Code",
+   "Testing Frameworks"
+  ]
+ },
+ {
+  "unit_code": "SIT310",
+  "unit_name": "IoT Systems and Cloud Integration",
+  "semester": "Trimester 1, 2024",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers IoT fundamentals, sensor networks, cloud integration, data analytics, and security for IoT systems. All tasks completed to High Distinction level.",
+  "projects": [
+   {
+    "id": "sit310-001",
+    "title": "IoT Fundamentals",
+    "category": "iot",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Introduction to IoT concepts and architectures",
+    "description": "Introduction to Internet of Things including IoT architectures, communication protocols, and system components. Demonstrates foundational understanding of IoT technology.",
+    "key_features": [
+     "IoT architecture",
+     "Communication protocols",
+     "Sensor basics",
+     "Connectivity options"
+    ],
+    "technical_stack": [
+     "IoT",
+     "Sensors",
+     "Protocols"
+    ],
+    "skills_demonstrated": [
+     "IoT concepts",
+     "System design",
+     "Protocol understanding"
+    ],
+    "evidence_pdf": "sit310/evidence/iot_fundamentals_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit310-002",
+    "title": "Sensor Networks",
+    "category": "iot",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Designing and implementing sensor networks",
+    "description": "Implementation of sensor networks including sensor selection, network topology, and data collection strategies. Demonstrates understanding of distributed sensing.",
+    "key_features": [
+     "Sensor selection",
+     "Network topology",
+     "Data collection",
+     "Wireless communication"
+    ],
+    "technical_stack": [
+     "IoT",
+     "Sensors",
+     "Wireless"
+    ],
+    "skills_demonstrated": [
+     "Sensor integration",
+     "Network design",
+     "Data acquisition"
+    ],
+    "evidence_pdf": "sit310/evidence/sensor_networks_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit310-003",
+    "title": "Cloud Integration",
+    "category": "iot",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Connecting IoT devices to cloud platforms",
+    "description": "Integration of IoT devices with cloud platforms for data storage, processing, and visualization. Demonstrates understanding of cloud-based IoT solutions.",
+    "key_features": [
+     "Cloud platform integration",
+     "Data streaming",
+     "Cloud storage",
+     "API integration"
+    ],
+    "technical_stack": [
+     "Cloud",
+     "IoT",
+     "APIs"
+    ],
+    "skills_demonstrated": [
+     "Cloud integration",
+     "Data streaming",
+     "Platform connectivity"
+    ],
+    "evidence_pdf": "sit310/evidence/cloud_integration_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit310-004",
+    "title": "Data Analytics",
+    "category": "iot",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Analyzing IoT data streams",
+    "description": "Analysis of IoT data streams including data processing, visualization, and insight generation. Demonstrates ability to extract value from IoT data.",
+    "key_features": [
+     "Data processing",
+     "Visualization",
+     "Pattern recognition",
+     "Insight generation"
+    ],
+    "technical_stack": [
+     "IoT",
+     "Analytics",
+     "Visualization"
+    ],
+    "skills_demonstrated": [
+     "Data analysis",
+     "Visualization",
+     "Insight extraction"
+    ],
+    "evidence_pdf": "sit310/evidence/data_analytics_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit310-005",
+    "title": "Security",
+    "category": "iot",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Securing IoT systems",
+    "description": "Implementation of security measures for IoT systems including authentication, encryption, and threat mitigation. Demonstrates understanding of IoT security challenges.",
+    "key_features": [
+     "Authentication",
+     "Encryption",
+     "Threat mitigation",
+     "Secure communication"
+    ],
+    "technical_stack": [
+     "Security",
+     "IoT",
+     "Encryption"
+    ],
+    "skills_demonstrated": [
+     "Security implementation",
+     "Threat mitigation",
+     "Secure design"
+    ],
+    "evidence_pdf": "sit310/evidence/security_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 5
+   },
+   {
+    "id": "sit310-006",
+    "title": "Final Project",
+    "category": "iot",
+    "year": 2024,
+    "type": "high-distinction",
+    "short_description": "Complete IoT system project",
+    "description": "Comprehensive IoT project demonstrating integration of sensors, cloud, analytics, and security. Applies all learned concepts in a complete system.",
+    "key_features": [
+     "Complete system design",
+     "Integration of components",
+     "Full implementation",
+     "Security integration"
+    ],
+    "technical_stack": [
+     "IoT",
+     "Cloud",
+     "Analytics"
+    ],
+    "skills_demonstrated": [
+     "System integration",
+     "Complete development",
+     "Full-stack IoT"
+    ],
+    "evidence_pdf": "sit310/evidence/final_project_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   }
+  ],
+  "key_learnings": [
+   "IoT fundamentals",
+   "Sensor networks",
+   "Cloud integration",
+   "Data analytics",
+   "IoT security"
+  ],
+  "tools_used": [
+   "IoT Platforms",
+   "Cloud Services",
+   "Sensors",
+   "Analytics Tools"
+  ]
+ },
+ {
+  "unit_code": "SIT314",
+  "unit_name": "Cloud Computing",
+  "semester": "Trimester 2, 2024",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers cloud computing including cloud architecture, microservices, containerization, DevOps practices, and cloud security. All tasks completed to High Distinction level.",
+  "projects": [
+   {
+    "id": "sit314-001",
+    "title": "Cloud Architecture",
+    "category": "cloud",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Designing cloud-based architectures",
+    "description": "Design and implementation of cloud architectures including scalability, reliability, and cost optimization. Demonstrates understanding of cloud design principles.",
+    "key_features": [
+     "Architecture design",
+     "Scalability patterns",
+     "High availability",
+     "Cost optimization"
+    ],
+    "technical_stack": [
+     "Cloud",
+     "AWS",
+     "Architecture"
+    ],
+    "skills_demonstrated": [
+     "Cloud design",
+     "Architecture patterns",
+     "System planning"
+    ],
+    "evidence_pdf": "sit314/evidence/cloud_architecture_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit314-002",
+    "title": "Microservices",
+    "category": "cloud",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Building microservices architectures",
+    "description": "Implementation of microservices architecture including service design, communication patterns, and orchestration. Demonstrates understanding of distributed system design.",
+    "key_features": [
+     "Service decomposition",
+     "API gateway",
+     "Service communication",
+     "Orchestration"
+    ],
+    "technical_stack": [
+     "Microservices",
+     "Docker",
+     "Kubernetes"
+    ],
+    "skills_demonstrated": [
+     "Microservices design",
+     "Service implementation",
+     "Distributed systems"
+    ],
+    "evidence_pdf": "sit314/evidence/microservices_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit314-003",
+    "title": "Containerization",
+    "category": "cloud",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Container deployment and management",
+    "description": "Implementation of containerized applications using Docker and container orchestration. Demonstrates understanding of container technology and deployment strategies.",
+    "key_features": [
+     "Dockerfile creation",
+     "Image management",
+     "Container orchestration",
+     "Deployment automation"
+    ],
+    "technical_stack": [
+     "Docker",
+     "Containerization",
+     "CI/CD"
+    ],
+    "skills_demonstrated": [
+     "Container management",
+     "Deployment skills",
+     "Automation"
+    ],
+    "evidence_pdf": "sit314/evidence/containerization_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit314-004",
+    "title": "DevOps Practices",
+    "category": "cloud",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Implementing DevOps workflows",
+    "description": "Implementation of DevOps practices including CI/CD pipelines, infrastructure as code, and automation. Demonstrates understanding of modern software delivery.",
+    "key_features": [
+     "CI/CD pipelines",
+     "Infrastructure as code",
+     "Automation",
+     "Monitoring"
+    ],
+    "technical_stack": [
+     "DevOps",
+     "Jenkins",
+     "Git"
+    ],
+    "skills_demonstrated": [
+     "DevOps implementation",
+     "Pipeline creation",
+     "Automation skills"
+    ],
+    "evidence_pdf": "sit314/evidence/devops_practices_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit314-005",
+    "title": "Cloud Security",
+    "category": "cloud",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Securing cloud infrastructure",
+    "description": "Implementation of security measures for cloud infrastructure including identity management, access control, and encryption. Demonstrates understanding of cloud security.",
+    "key_features": [
+     "Identity management",
+     "Access control",
+     "Encryption",
+     "Compliance"
+    ],
+    "technical_stack": [
+     "Cloud Security",
+     "IAM",
+     "Encryption"
+    ],
+    "skills_demonstrated": [
+     "Security implementation",
+     "Access management",
+     "Compliance"
+    ],
+    "evidence_pdf": "sit314/evidence/cloud_security_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 5
+   },
+   {
+    "id": "sit314-006",
+    "title": "Deployment Project",
+    "category": "cloud",
+    "year": 2024,
+    "type": "high-distinction",
+    "short_description": "Complete cloud deployment project",
+    "description": "Comprehensive cloud deployment project demonstrating integration of architecture, microservices, containers, and DevOps practices. Applies all learned concepts.",
+    "key_features": [
+     "Full deployment",
+     "Integration of services",
+     "Complete automation",
+     "Security implementation"
+    ],
+    "technical_stack": [
+     "Cloud",
+     "Docker",
+     "DevOps"
+    ],
+    "skills_demonstrated": [
+     "Complete deployment",
+     "System integration",
+     "Full implementation"
+    ],
+    "evidence_pdf": "sit314/evidence/deployment_project_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   }
+  ],
+  "key_learnings": [
+   "Cloud architecture",
+   "Microservices design",
+   "Containerization",
+   "DevOps practices",
+   "Cloud security"
+  ],
+  "tools_used": [
+   "AWS",
+   "Docker",
+   "Kubernetes",
+   "Jenkins",
+   "Terraform"
+  ]
+ },
+ {
+  "unit_code": "SIT329",
+  "unit_name": "Cybersecurity",
+  "semester": "Trimester 1, 2024",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers cybersecurity fundamentals including network security, penetration testing, cryptography, and security auditing. All tasks completed to High Distinction level.",
+  "projects": [
+   {
+    "id": "sit329-001",
+    "title": "Network Security",
+    "category": "security",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Network security fundamentals and implementation",
+    "description": "Study of network security concepts including firewalls, IDS/IPS, VPN, and network monitoring. Demonstrates understanding of securing network infrastructure.",
+    "key_features": [
+     "Firewall configuration",
+     "IDS/IPS implementation",
+     "VPN setup",
+     "Network monitoring"
+    ],
+    "technical_stack": [
+     "Network Security",
+     "Firewalls",
+     "IDS/IPS"
+    ],
+    "skills_demonstrated": [
+     "Network security",
+     "Threat mitigation",
+     "Security monitoring"
+    ],
+    "evidence_pdf": "sit329/evidence/network_security_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit329-002",
+    "title": "Penetration Testing",
+    "category": "security",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Ethical hacking and vulnerability assessment",
+    "description": "Implementation of penetration testing methodologies including reconnaissance, scanning, exploitation, and reporting. Demonstrates understanding of ethical hacking.",
+    "key_features": [
+     "Reconnaissance",
+     "Vulnerability scanning",
+     "Exploitation",
+     "Reporting"
+    ],
+    "technical_stack": [
+     "Kali Linux",
+     "Metasploit",
+     "Nmap"
+    ],
+    "skills_demonstrated": [
+     "Penetration testing",
+     "Vulnerability assessment",
+     "Ethical hacking"
+    ],
+    "evidence_pdf": "sit329/evidence/penetration_testing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit329-003",
+    "title": "Cryptography",
+    "category": "security",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Encryption and cryptographic techniques",
+    "description": "Study and implementation of cryptographic algorithms including symmetric encryption, asymmetric encryption, hashing, and digital signatures. Demonstrates understanding of cryptographic principles.",
+    "key_features": [
+     "Symmetric encryption",
+     "Asymmetric encryption",
+     "Hashing algorithms",
+     "Digital signatures"
+    ],
+    "technical_stack": [
+     "Cryptography",
+     "Encryption",
+     "SSL/TLS"
+    ],
+    "skills_demonstrated": [
+     "Cryptographic implementation",
+     "Encryption",
+     "Secure communication"
+    ],
+    "evidence_pdf": "sit329/evidence/cryptography_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit329-004",
+    "title": "Security Auditing",
+    "category": "security",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Security assessment and auditing",
+    "description": "Implementation of security audits including vulnerability assessment, compliance checking, and security policy review. Demonstrates ability to evaluate security posture.",
+    "key_features": [
+     "Vulnerability assessment",
+     "Compliance checking",
+     "Policy review",
+     "Audit reporting"
+    ],
+    "technical_stack": [
+     "Auditing Tools",
+     "Compliance",
+     "Assessment"
+    ],
+    "skills_demonstrated": [
+     "Security auditing",
+     "Compliance assessment",
+     "Risk evaluation"
+    ],
+    "evidence_pdf": "sit329/evidence/security_auditing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   }
+  ],
+  "key_learnings": [
+   "Network security",
+   "Penetration testing",
+   "Cryptography",
+   "Security auditing"
+  ],
+  "tools_used": [
+   "Kali Linux",
+   "Metasploit",
+   "Nmap",
+   "Wireshark",
+   "OpenSSL"
+  ]
+ },
+ {
+  "unit_code": "SIT331",
+  "unit_name": "Full Stack Development: Secure Backend Services",
+  "semester": "Trimester 2, 2023",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers full-stack development with focus on secure backend services, RESTful APIs, database integration, and authentication. All HD tasks completed demonstrating mastery of backend development concepts.",
+  "projects": [
+   {
+    "id": "sit331-001",
+    "title": "Backend Development",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Node.js backend development fundamentals",
+    "description": "Introduction to backend development using Node.js and Express.js framework. Demonstrates understanding of server creation, routing, middleware, and request handling.",
+    "key_features": [
+     "Node.js basics",
+     "Express.js framework",
+     "RESTful routing",
+     "Middleware implementation"
+    ],
+    "technical_stack": [
+     "Node.js",
+     "Express.js",
+     "JavaScript"
+    ],
+    "skills_demonstrated": [
+     "Backend development",
+     "Server creation",
+     "API design"
+    ],
+    "evidence_pdf": "sit331/evidence/backend_development_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit331-002",
+    "title": "Database Integration",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Database design and integration",
+    "description": "Integration of databases with backend services including database design, connection management, and CRUD operations. Demonstrates understanding of data persistence.",
+    "key_features": [
+     "Database design",
+     "Connection pooling",
+     "CRUD operations",
+     "Query optimization"
+    ],
+    "technical_stack": [
+     "Node.js",
+     "MongoDB",
+     "Mongoose"
+    ],
+    "skills_demonstrated": [
+     "Database integration",
+     "Data modeling",
+     "Query writing"
+    ],
+    "evidence_pdf": "sit331/evidence/database_integration_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit331-003",
+    "title": "API Development",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "RESTful API design and implementation",
+    "description": "Design and implementation of RESTful APIs including endpoints, HTTP methods, request/response handling, and API documentation. Demonstrates understanding of API best practices.",
+    "key_features": [
+     "RESTful design",
+     "Endpoint implementation",
+     "Request validation",
+     "API documentation"
+    ],
+    "technical_stack": [
+     "REST API",
+     "Node.js",
+     "Express"
+    ],
+    "skills_demonstrated": [
+     "API design",
+     "Endpoint development",
+     "Documentation"
+    ],
+    "evidence_pdf": "sit331/evidence/api_development_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit331-004",
+    "title": "Authentication",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "User authentication and authorization",
+    "description": "Implementation of user authentication and authorization including JWT tokens, session management, and role-based access control. Demonstrates understanding of secure authentication.",
+    "key_features": [
+     "JWT implementation",
+     "Session management",
+     "Role-based access",
+     "Password hashing"
+    ],
+    "technical_stack": [
+     "JWT",
+     "Bcrypt",
+     "Sessions"
+    ],
+    "skills_demonstrated": [
+     "Authentication systems",
+     "Token management",
+     "Security implementation"
+    ],
+    "evidence_pdf": "sit331/evidence/authentication_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit331-005",
+    "title": "Security Implementation",
+    "category": "web",
+    "year": 2023,
+    "type": "assignment",
+    "short_description": "Backend security measures",
+    "description": "Implementation of security measures including input validation, SQL injection prevention, XSS protection, and secure data handling. Demonstrates understanding of secure coding practices.",
+    "key_features": [
+     "Input validation",
+     "SQL injection prevention",
+     "XSS protection",
+     "Secure data handling"
+    ],
+    "technical_stack": [
+     "Security",
+     "Validation",
+     "Helmet"
+    ],
+    "skills_demonstrated": [
+     "Security implementation",
+     "Vulnerability prevention",
+     "Secure coding"
+    ],
+    "evidence_pdf": "sit331/evidence/security_implementation_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": false,
+    "order": 5
+   },
+   {
+    "id": "sit331-006",
+    "title": "Full Stack Project",
+    "category": "web",
+    "year": 2023,
+    "type": "high-distinction",
+    "short_description": "Complete full-stack application",
+    "description": "Comprehensive full-stack project demonstrating integration of backend services, frontend interface, database, and security features. Applies all learned concepts in a complete application.",
+    "key_features": [
+     "Complete application",
+     "Backend-frontend integration",
+     "Database connectivity",
+     "Security implementation"
+    ],
+    "technical_stack": [
+     "Node.js",
+     "Express",
+     "MongoDB",
+     "Frontend"
+    ],
+    "skills_demonstrated": [
+     "Full-stack development",
+     "System integration",
+     "Complete application delivery"
+    ],
+    "evidence_pdf": "sit331/evidence/full_stack_project_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   }
+  ],
+  "key_learnings": [
+   "Backend development with Node.js",
+   "Database integration with MongoDB",
+   "RESTful API design",
+   "Authentication and authorization",
+   "Security best practices",
+   "Full-stack integration"
+  ],
+  "tools_used": [
+   "Node.js",
+   "Express.js",
+   "MongoDB",
+   "JWT",
+   "Postman"
+  ]
+ },
+ {
+  "unit_code": "SIT333",
+  "unit_name": "Research Practice",
+  "semester": "Trimester 2, 2024",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers research methodology including research methods, literature review, data collection, and analysis techniques. All tasks completed to High Distinction level.",
+  "projects": [
+   {
+    "id": "sit333-001",
+    "title": "Research Methods",
+    "category": "research",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Research methodology fundamentals",
+    "description": "Study of research methods including quantitative and qualitative approaches, research design, and methodology selection. Demonstrates understanding of research principles.",
+    "key_features": [
+     "Research design",
+     "Methodology selection",
+     "Data collection planning",
+     "Research ethics"
+    ],
+    "technical_stack": [
+     "Research Methods",
+     "Statistics"
+    ],
+    "skills_demonstrated": [
+     "Research design",
+     "Methodology understanding",
+     "Planning"
+    ],
+    "evidence_pdf": "sit333/evidence/research_methods_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit333-002",
+    "title": "Literature Review",
+    "category": "research",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Systematic literature review",
+    "description": "Comprehensive literature review examining existing research on a chosen topic. Demonstrates ability to find, analyze, and synthesize academic literature.",
+    "key_features": [
+     "Literature search",
+     "Critical analysis",
+     "Synthesis",
+     "Gap identification"
+    ],
+    "technical_stack": [
+     "Academic Research",
+     "Databases"
+    ],
+    "skills_demonstrated": [
+     "Literature analysis",
+     "Critical thinking",
+     "Academic writing"
+    ],
+    "evidence_pdf": "sit333/evidence/literature_review_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit333-003",
+    "title": "Data Collection",
+    "category": "research",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Research data collection methods",
+    "description": "Design and implementation of data collection methods including surveys, interviews, and observational studies. Demonstrates understanding of data gathering techniques.",
+    "key_features": [
+     "Survey design",
+     "Interview protocols",
+     "Data collection",
+     "Quality control"
+    ],
+    "technical_stack": [
+     "Data Collection",
+     "Surveys",
+     "Statistics"
+    ],
+    "skills_demonstrated": [
+     "Data collection",
+     "Survey design",
+     "Methodology implementation"
+    ],
+    "evidence_pdf": "sit333/evidence/data_collection_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit333-004",
+    "title": "Analysis Techniques",
+    "category": "research",
+    "year": 2024,
+    "type": "assignment",
+    "short_description": "Research data analysis methods",
+    "description": "Analysis of research data using appropriate statistical and analytical methods. Demonstrates proficiency in data interpretation and statistical testing.",
+    "key_features": [
+     "Statistical analysis",
+     "Data interpretation",
+     "Hypothesis testing",
+     "Result validation"
+    ],
+    "technical_stack": [
+     "Statistics",
+     "Data Analysis",
+     "Visualization"
+    ],
+    "skills_demonstrated": [
+     "Statistical analysis",
+     "Data interpretation",
+     "Results presentation"
+    ],
+    "evidence_pdf": "sit333/evidence/analysis_techniques_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit333-005",
+    "title": "Research Project",
+    "category": "research",
+    "year": 2024,
+    "type": "high-distinction",
+    "short_description": "Complete research project",
+    "description": "Comprehensive research project demonstrating all aspects of research process from design to analysis. Applies all learned concepts in original research.",
+    "key_features": [
+     "Complete research design",
+     "Full implementation",
+     "Comprehensive analysis",
+     "Academic reporting"
+    ],
+    "technical_stack": [
+     "Research",
+     "Analysis",
+     "Writing"
+    ],
+    "skills_demonstrated": [
+     "Complete research",
+     "Analysis skills",
+     "Academic writing"
+    ],
+    "evidence_pdf": "sit333/evidence/research_project_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   }
+  ],
+  "key_learnings": [
+   "Research methodology",
+   "Literature review",
+   "Data collection",
+   "Statistical analysis"
+  ],
+  "tools_used": [
+   "SPSS",
+   "Excel",
+   "Academic Databases",
+   "Survey Tools"
+  ]
+ },
+ {
+  "unit_code": "SIT379",
+  "unit_name": "Project Management",
+  "semester": "Trimester 1, 2025",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers project management fundamentals including planning, requirements analysis, design, implementation, testing, and project closure. All tasks completed to High Distinction level.",
+  "projects": [
+   {
+    "id": "sit379-001",
+    "title": "Project Planning",
+    "category": "professional",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Project planning and scheduling",
+    "description": "Comprehensive project planning including scope definition, work breakdown structure, scheduling, resource allocation, and risk planning. Demonstrates understanding of project management fundamentals.",
+    "key_features": [
+     "Scope definition",
+     "Work breakdown structure",
+     "Scheduling",
+     "Resource allocation",
+     "Risk planning"
+    ],
+    "technical_stack": [
+     "Project Management",
+     "Scheduling Tools"
+    ],
+    "skills_demonstrated": [
+     "Project planning",
+     "Scheduling",
+     "Risk management"
+    ],
+    "evidence_pdf": "sit379/evidence/project_planning_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit379-002",
+    "title": "Requirements Analysis",
+    "category": "professional",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Gathering and documenting requirements",
+    "description": "Requirements gathering and analysis including stakeholder identification, use case development, and requirements documentation. Demonstrates understanding of requirements engineering.",
+    "key_features": [
+     "Stakeholder analysis",
+     "Use case modeling",
+     "Requirements documentation",
+     "Prioritization"
+    ],
+    "technical_stack": [
+     "Requirements Engineering",
+     "UML"
+    ],
+    "skills_demonstrated": [
+     "Requirements gathering",
+     "Documentation",
+     "Stakeholder communication"
+    ],
+    "evidence_pdf": "sit379/evidence/requirements_analysis_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit379-003",
+    "title": "Design Phase",
+    "category": "professional",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "System design and architecture",
+    "description": "System design including architectural decisions, interface design, data modeling, and component design. Demonstrates understanding of software design principles.",
+    "key_features": [
+     "Architecture design",
+     "Interface design",
+     "Data modeling",
+     "Component design"
+    ],
+    "technical_stack": [
+     "UML",
+     "Design Tools",
+     "Architecture"
+    ],
+    "skills_demonstrated": [
+     "System design",
+     "Architecture",
+     "Interface design"
+    ],
+    "evidence_pdf": "sit379/evidence/design_phase_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit379-004",
+    "title": "Implementation",
+    "category": "professional",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Project implementation and development",
+    "description": "Project implementation following established design and standards. Demonstrates ability to execute project plans and deliver working software.",
+    "key_features": [
+     "Code development",
+     "Integration",
+     "Version control",
+     "Documentation"
+    ],
+    "technical_stack": [
+     "Development Tools",
+     "Version Control"
+    ],
+    "skills_demonstrated": [
+     "Implementation",
+     "Development skills",
+     "Team collaboration"
+    ],
+    "evidence_pdf": "sit379/evidence/implementation_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit379-005",
+    "title": "Testing",
+    "category": "professional",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Quality assurance and testing",
+    "description": "Comprehensive testing including test planning, test case development, execution, and defect tracking. Demonstrates understanding of quality assurance.",
+    "key_features": [
+     "Test planning",
+     "Test case design",
+     "Execution",
+     "Defect tracking"
+    ],
+    "technical_stack": [
+     "Testing Tools",
+     "QA"
+    ],
+    "skills_demonstrated": [
+     "Testing",
+     "Quality assurance",
+     "Defect management"
+    ],
+    "evidence_pdf": "sit379/evidence/testing_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   },
+   {
+    "id": "sit379-006",
+    "title": "Project Closure",
+    "category": "professional",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Project closure and lessons learned",
+    "description": "Project closure activities including final delivery, documentation, lessons learned, and handoff. Demonstrates understanding of project completion processes.",
+    "key_features": [
+     "Final delivery",
+     "Documentation",
+     "Lessons learned",
+     "Handoff"
+    ],
+    "technical_stack": [
+     "Documentation",
+     "Presentation"
+    ],
+    "skills_demonstrated": [
+     "Project closure",
+     "Documentation",
+     "Presentation"
+    ],
+    "evidence_pdf": "sit379/evidence/project_closure_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 6
+   }
+  ],
+  "key_learnings": [
+   "Project planning",
+   "Requirements analysis",
+   "System design",
+   "Implementation",
+   "Testing",
+   "Project closure"
+  ],
+  "tools_used": [
+   "Project Management Tools",
+   "UML Tools",
+   "Testing Tools",
+   "Documentation"
+  ]
+ },
+ {
+  "unit_code": "SIT723/SIT792",
+  "unit_name": "Research Thesis",
+  "semester": "Trimester 3, 2025",
+  "grade": "High Distinction (A)",
+  "overview": "This unit covers research thesis development including research proposal, literature review, methodology, implementation, and final thesis writing. All tasks completed to High Distinction level.",
+  "projects": [
+   {
+    "id": "sit723-001",
+    "title": "Research Proposal",
+    "category": "research",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Research proposal development",
+    "description": "Development of a comprehensive research proposal including research question, objectives, methodology outline, and significance statement. Demonstrates ability to design research studies.",
+    "key_features": [
+     "Research question formulation",
+     "Objectives setting",
+     "Methodology outline",
+     "Significance justification"
+    ],
+    "technical_stack": [
+     "Research Methods",
+     "Academic Writing"
+    ],
+    "skills_demonstrated": [
+     "Research design",
+     "Proposal writing",
+     "Academic communication"
+    ],
+    "evidence_pdf": "sit723/evidence/research_proposal_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 1
+   },
+   {
+    "id": "sit723-002",
+    "title": "Literature Review",
+    "category": "research",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Comprehensive literature review",
+    "description": "Extensive literature review examining existing research on the thesis topic. Demonstrates ability to find, analyze, and synthesize academic literature.",
+    "key_features": [
+     "Systematic search",
+     "Critical analysis",
+     "Synthesis of findings",
+     "Gap identification"
+    ],
+    "technical_stack": [
+     "Academic Research",
+     "Databases"
+    ],
+    "skills_demonstrated": [
+     "Literature analysis",
+     "Critical thinking",
+     "Academic writing"
+    ],
+    "evidence_pdf": "sit723/evidence/literature_review_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 2
+   },
+   {
+    "id": "sit723-003",
+    "title": "Methodology",
+    "category": "research",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Research methodology design",
+    "description": "Detailed research methodology describing data collection, analysis methods, and research procedures. Demonstrates understanding of research design.",
+    "key_features": [
+     "Methodology design",
+     "Data collection methods",
+     "Analysis techniques",
+     "Validity assurance"
+    ],
+    "technical_stack": [
+     "Research Methods",
+     "Statistics"
+    ],
+    "skills_demonstrated": [
+     "Methodology design",
+     "Research planning",
+     "Analysis selection"
+    ],
+    "evidence_pdf": "sit723/evidence/methodology_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 3
+   },
+   {
+    "id": "sit723-004",
+    "title": "Implementation",
+    "category": "research",
+    "year": 2025,
+    "type": "assignment",
+    "short_description": "Research implementation",
+    "description": "Implementation of research methodology including data collection, experiments, and analysis execution. Demonstrates ability to carry out research plans.",
+    "key_features": [
+     "Data collection",
+     "Experiment execution",
+     "Analysis implementation",
+     "Result gathering"
+    ],
+    "technical_stack": [
+     "Research Tools",
+     "Analysis Software"
+    ],
+    "skills_demonstrated": [
+     "Implementation skills",
+     "Data collection",
+     "Analysis"
+    ],
+    "evidence_pdf": "sit723/evidence/implementation_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 4
+   },
+   {
+    "id": "sit723-005",
+    "title": "Final Thesis",
+    "category": "research",
+    "year": 2025,
+    "type": "high-distinction",
+    "short_description": "Complete research thesis",
+    "description": "Comprehensive research thesis documenting the complete research process from proposal through implementation to conclusions. Demonstrates mastery of research skills.",
+    "key_features": [
+     "Complete documentation",
+     "Comprehensive analysis",
+     "Academic writing",
+     "Research contribution"
+    ],
+    "technical_stack": [
+     "Academic Writing",
+     "Research"
+    ],
+    "skills_demonstrated": [
+     "Thesis writing",
+     "Research completion",
+     "Academic presentation"
+    ],
+    "evidence_pdf": "sit723/evidence/final_thesis_evidence.pdf",
+    "grade_achieved": "High Distinction",
+    "featured": true,
+    "order": 5
+   }
+  ],
+  "key_learnings": [
+   "Research methodology",
+   "Literature review",
+   "Research implementation",
+   "Thesis writing"
+  ],
+  "tools_used": [
+   "Academic Databases",
+   "Statistical Software",
+   "Writing Tools",
+   "Research Platforms"
+  ]
+ }
+]

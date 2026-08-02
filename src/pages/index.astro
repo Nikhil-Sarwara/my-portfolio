@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import units from '../data/portfolio.json';
+
+const site = {
+  name: "NIKHIL SARWARA",
+  role: "Software Engineering (Honours) Graduate",
+  location: "Melbourne, Australia",
+  bio: "Graduated with First Class Honours in Software Engineering (Honours) @ Deakin. Focused on Robotics, Autonomous Systems, Cybersecurity, and Machine Learning. Thesis on GPS spoofing detection in mobile robots.",
+  note: "This portfolio showcases my academic work only. For my personal projects and 5 years professional experience, email me at info@nikhilsarwara.com",
+  phone: "0481756675",
+  email: "info@nikhilsarwara.com",
+  github: "https://github.com/Nikhil-Sarwara",
+  linkedin: "https://linkedin.com/in/nikhil-sarwara/",
+};
+
+const stats = [
+  { num: "113+", cap: "Projects" },
+  { num: "37+", cap: "Technologies" },
+  { num: "1", cap: "Experience" },
+];
+
+const stack = [
+  { label: "Languages", items: ["C#", "C++", "Python", "TypeScript", "JavaScript", "SQL"], tone: "" },
+  { label: "Frameworks & Libraries", items: [".NET Core", "React", "Next.js", "PyTorch", "SplashKit", "Flutter"], tone: "chip-blue" },
+  { label: "Cloud & DevOps", items: ["AWS", "Docker", "Jenkins", "Firebase", "Git", "GitHub"], tone: "chip-dark" },
+  { label: "Databases", items: ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Firestore"], tone: "" },
+  { label: "Concepts", items: ["Computer Vision", "Machine Learning", "Full-stack", "IoT", "Agile/Scrum"], tone: "chip-purple" },
+  { label: "Tools", items: ["Visual Studio", "VS Code", "Arduino IDE", "Raspberry Pi", "MQTT", "LaTeX"], tone: "" },
+];
+
+const unitLabels = {
+  "SIT102": "CODE", "SIT111": "Systems", "SIT182": "Data Science", "SIT210": "CODE",
+  "SIT218": "Robotics", "SIT223": "Profession", "SIT232": "CODE", "SIT310": "IoT",
+  "SIT313": "Full-Stack", "SIT314": "Cloud", "SIT329": "Cybersec", "SIT331": "Backend",
+  "SIT333": "Research", "SIT379": "Project Mgmt", "SIT723/SIT792": "Research T",
+};
+---
+<BaseLayout>
+  <div class="page">
+    <div class="corner-tl"></div>
+    <div class="corner-br"></div>
+    <div class="content">
+      <div class="main-grid">
+
+        <!-- Identity -->
+        <div class="cell cell-id">
+          <div class="id-row">
+            <div class="photo">
+              <img src="/profile.png" alt={site.name} width="192" height="256" />
+            </div>
+            <div class="flex-1">
+              <h1 class="name">{site.name}</h1>
+              <p class="id-meta">{site.role} · {site.location}</p>
+            </div>
+          </div>
+          <p class="id-bio">{site.bio}</p>
+        </div>
+
+        <!-- Contact -->
+        <div class="cell cell-bg-zinc">
+          <div class="section-label">[Contact]</div>
+          <div class="contact-list">
+            <div class="contact-row">
+              <span class="label">Phone</span>
+              <span class="value">{site.phone}</span>
+            </div>
+            <div class="contact-row">
+              <span class="label">Email</span>
+              <a class="value" href={`mailto:${site.email}`}>{site.email}</a>
+            </div>
+            <div class="contact-row">
+              <span class="label">GitHub</span>
+              <a class="value" href={site.github} target="_blank" rel="noopener">github.com/Nikhil-Sarwara</a>
+            </div>
+            <div class="contact-row">
+              <span class="label">LinkedIn</span>
+              <a class="value" href={site.linkedin} target="_blank" rel="noopener">in/nikhil-sarwara</a>
+            </div>
+          </div>
+          <a class="resume-btn" href="/resume.pdf" download>Download Resume ↓</a>
+        </div>
+
+        <!-- Statistics -->
+        <div class="cell cell-bg-grad">
+          <div class="section-label">[Statistics]</div>
+          <div class="stats">
+            {
+              stats.map((s) => (
+                <div class="stat">
+                  <div class="num">{s.num}</div>
+                  <div class="cap">{s.cap}</div>
+                </div>
+              ))
+            }
+          </div>
+        </div>
+
+        <!-- Stack -->
+        <div class="cell cell-bg-grad">
+          <div class="section-label">[Stack]</div>
+          {
+            stack.map((g) => (
+              <div class="stack-group">
+                <div class="g-label">{g.label}</div>
+                <div class="chips">
+                  {g.items.map((i) => <span class={`chip ${g.tone}`}>{i}</span>)}
+                </div>
+              </div>
+            ))
+          }
+        </div>
+
+        <!-- Academic -->
+        <div class="cell cell-wide">
+          <div class="section-label">[Academic] Course Units</div>
+          <div class="academic">
+            {
+              units.map((u) => {
+                const href = `/units/${u.unit_code.toLowerCase()}`;
+                return (
+                  <a class="unit-row" href={href}>
+                    <div class="unit-top">
+                      <h3 class="unit-name">{u.unit_code} <span style="font-weight:500;color:var(--zinc-500)">{unitLabels[u.unit_code]}</span></h3>
+                      <div class="unit-right">
+                        <span class="badge-code">{u.unit_code}</span>
+                        <span class="badge-grade">{u.grade.split(" ")[0]}</span>
+                      </div>
+                    </div>
+                    <div class="unit-meta">{u.semester}</div>
+                  </a>
+                );
+              })
+            }
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-links">
+          <a href={site.github} target="_blank" rel="noopener">GitHub</a>
+          <a href={site.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+          <a href={`mailto:${site.email}`}>Email</a>
+          <a href="/resume.pdf" download>Resume</a>
+        </div>
+        <span class="footer-note">© {new Date().getFullYear()} Nikhil Sarwara</span>
+      </footer>
+    </div>
+  </div>
+</BaseLayout>
