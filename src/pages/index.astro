@@ -51,6 +51,32 @@ const buckets = [
 
 const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
 
+// Build skill → matching units map for the stack focus mode
+const skillToUnits = {};
+for (const g of stack) {
+  for (const item of g.items) {
+    const needle = item.toLowerCase();
+    const hits = units.filter((u) => {
+      const hay = [
+        u.unit_name || "",
+        ...(u.tools_used || []),
+        ...(u.projects || []).flatMap((p) => [
+          p.title || "",
+          ...(p.technical_stack || []),
+          ...(p.skills_demonstrated || []),
+        ]),
+      ].join(" | ").toLowerCase();
+      return hay.includes(needle);
+    });
+    skillToUnits[item] = hits.map((u) => ({
+      code: u.unit_code,
+      name: u.unit_name,
+      semester: u.semester,
+      grade: u.grade.split(" ")[0],
+    }));
+  }
+}
+
 const experience = [
   {
     period: "2018",
@@ -91,7 +117,7 @@ const experience = [
     title: "B. Software Engineering (Honours)",
     org: "Deakin University",
     desc: "Graduated with First Class Honours. Minor in Cyber Security.",
-    images: ["journey/australia-2024.jpg", "journey/first-car-2024.jpg"],
+    images: ["journey/australia-2024.jpg"],
   },
   {
     period: "Alongside studies",
@@ -205,7 +231,7 @@ const experience = [
               <div class="stack-group">
                 <div class="g-label">{g.label}</div>
                 <div class="chips">
-                  {g.items.map((i) => <span class={`chip ${g.tone}`}>{i}</span>)}
+                  {g.items.map((i) => <button type="button" class={`chip ${g.tone} chip-btn`} data-skill={i}>{i}</button>)}
                 </div>
               </div>
             ))
@@ -333,7 +359,21 @@ const experience = [
     <img class="lightbox-img" id="lightbox-img" src="" alt="Evidence image" />
   </div>
 
-  <script>
+  <div class="skill-overlay" id="skill-overlay" aria-hidden="true">
+    <div class="skill-panel">
+      <div class="skill-head">
+        <button class="skill-back" id="skill-back" type="button">← Back</button>
+        <div class="skill-title-wrap">
+          <span class="skill-name" id="skill-name"></span>
+          <span class="skill-group" id="skill-group"></span>
+        </div>
+        <button class="skill-close" id="skill-close" type="button" aria-label="Close">✕</button>
+      </div>
+      <div class="skill-units" id="skill-units"></div>
+    </div>
+  </div>
+
+  <script define:vars={{ skillToUnits }}>
     // Mobile/tap toggle for the proof popover (hover is desktop-only)
     const badge = document.getElementById('honours-badge');
     if (badge) {
@@ -414,6 +454,51 @@ const experience = [
     if (expandAll && collapseAll) {
       expandAll.addEventListener('click', () => buckets.forEach((b) => (b.open = true)));
       collapseAll.addEventListener('click', () => buckets.forEach((b) => (b.open = false)));
+    }
+
+    // Stack chip focus mode
+    const SKILL_DATA = skillToUnits;
+    const skillOverlay = document.getElementById('skill-overlay');
+    const skillName = document.getElementById('skill-name');
+    const skillGroup = document.getElementById('skill-group');
+    const skillUnits = document.getElementById('skill-units');
+    const skillBack = document.getElementById('skill-back');
+    const skillClose = document.getElementById('skill-close');
+    if (skillOverlay && skillName && skillUnits) {
+      const openSkill = (skill) => {
+        const list = SKILL_DATA[skill] || [];
+        skillName.textContent = skill;
+        skillGroup.textContent = list.length
+          ? `${list.length} unit${list.length > 1 ? 's' : ''} using this`
+          : 'no direct unit match — part of my toolkit';
+        skillUnits.innerHTML = list.length
+          ? list.map((u) => `
+              <a class="skill-unit" href="/units/${u.code.toLowerCase()}">
+                <span class="badge-code">${u.code}</span>
+                <span class="u-name">${u.name}</span>
+                <span class="u-meta"><span class="badge-grade">${u.grade}</span> · ${u.semester}</span>
+              </a>`).join('')
+          : `<p class="skill-empty">No course unit explicitly lists this — it's part of my self-taught toolkit.</p>`;
+        skillOverlay.classList.add('open');
+        skillOverlay.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      };
+      const closeSkill = () => {
+        skillOverlay.classList.remove('open');
+        skillOverlay.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      };
+      document.querySelectorAll('.chip-btn').forEach((btn) => {
+        btn.addEventListener('click', () => openSkill(btn.dataset.skill));
+      });
+      skillBack?.addEventListener('click', closeSkill);
+      skillClose?.addEventListener('click', closeSkill);
+      skillOverlay.addEventListener('click', (e) => {
+        if (e.target === skillOverlay) closeSkill();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeSkill();
+      });
     }
   </script>
 </BaseLayout>
