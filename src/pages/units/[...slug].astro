@@ -101,6 +101,10 @@ const homeHref = `/units/${unit.unit_code.toLowerCase()}`;
                 <div class="chips" style="margin-bottom:2.5rem">
                   {project.skills_demonstrated?.map((s) => <span class="chip chip-green">{s}</span>)}
                 </div>
+
+                <a class="evidence-btn" href={`mailto:${site.email}?subject=${encodeURIComponent(`Evidence Request: ${unit.unit_code} — ${project.title}`)}&body=${encodeURIComponent(`Hi Nikhil,\n\nI'd like to request access to the evidence for ${unit.unit_code} — ${project.title}.\n\nThanks!`)}`}>
+                  Request Evidence by Email →
+                </a>
               </>
             )
           }
