@@ -205,7 +205,8 @@ const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
       <div class="modal-map-wrap">
         <iframe
           class="modal-map"
-          src="https://www.google.com/maps?q=-37.6811,145.0167&z=14&output=embed"
+          id="modal-map"
+          src="about:blank"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           allowfullscreen
@@ -233,8 +234,15 @@ const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
     const modal = document.getElementById('location-modal');
     const locRow = document.getElementById('location-row');
     const closeBtn = document.getElementById('modal-close');
+    const mapFrame = document.getElementById('modal-map');
     if (modal && locRow) {
+      let mapLoaded = false;
       const open = () => {
+        // load the map only on first click — nothing fetches until then
+        if (!mapLoaded && mapFrame) {
+          mapFrame.src = 'https://www.google.com/maps?q=-37.6811,145.0167&z=14&output=embed';
+          mapLoaded = true;
+        }
         modal.classList.add('open');
         modal.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
