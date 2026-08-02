@@ -972,6 +972,121 @@ h1.name {
   }
 }
 
+/* ===== Location modal ===== */
+.location-row {
+  cursor: pointer;
+  transition: background 0.15s;
+  padding: 0.15rem 0.3rem;
+  margin: 0 -0.3rem;
+  border-radius: 0.3rem;
+}
+
+.location-row:hover {
+  background: var(--zinc-100);
+}
+
+.loc-value {
+  color: var(--blue-700);
+}
+
+.loc-pin {
+  font-size: 0.8rem;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgb(0 0 0 / 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.modal-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal {
+  position: relative;
+  width: min(92vw, 560px);
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid var(--zinc-900);
+  border-radius: 0.6rem;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
+  padding: 1.25rem;
+  transform: translateY(12px);
+  transition: transform 0.2s;
+}
+
+.modal-overlay.open .modal {
+  transform: translateY(0);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--zinc-300);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--zinc-600);
+  font-size: 0.9rem;
+  cursor: pointer;
+  z-index: 5;
+  line-height: 1;
+  transition: background 0.15s, color 0.15s;
+}
+
+.modal-close:hover {
+  background: var(--zinc-900);
+  color: #fff;
+}
+
+.modal-title {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  padding-right: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.modal-map-wrap {
+  border: 1px solid var(--zinc-900);
+  border-radius: 0.4rem;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.modal-map {
+  width: 100%;
+  height: 380px;
+  border: 0;
+}
+
+.modal-note {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--zinc-500);
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .modal-map {
+    height: 46vh;
+  }
+}
+
 /* ===== Footer ===== */
 .footer {
   margin-top: 4rem;

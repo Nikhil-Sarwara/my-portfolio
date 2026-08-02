@@ -99,6 +99,10 @@ const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
               <span class="label">Phone</span>
               <a class="value" href="tel:0481756675">{site.phone}</a>
             </div>
+            <div class="contact-row location-row" id="location-row" title="View location">
+              <span class="label">Location</span>
+              <span class="value loc-value">Thomastown, Melbourne, AU <span class="loc-pin">📍</span></span>
+            </div>
             <div class="contact-row">
               <span class="label">Email</span>
               <a class="value" href={`mailto:${site.email}`}>{site.email}</a>
@@ -192,6 +196,26 @@ const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
     </div>
   </div>
 
+  <div class="modal-overlay" id="location-modal" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Close">✕</button>
+      <div class="modal-head">
+        <span class="modal-title" id="modal-title">📍 Thomastown, Melbourne, Australia</span>
+      </div>
+      <div class="modal-map-wrap">
+        <iframe
+          class="modal-map"
+          src="https://www.google.com/maps?q=-37.6811,145.0167&z=14&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+          title="Map of Thomastown, Melbourne, Australia"
+        ></iframe>
+      </div>
+      <p class="modal-note">😄 For security reasons, I cannot share my ISP allocation.</p>
+    </div>
+  </div>
+
   <script>
     // Mobile/tap toggle for the proof popover (hover is desktop-only)
     const badge = document.getElementById('honours-badge');
@@ -202,6 +226,31 @@ const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
       });
       document.addEventListener('click', (e) => {
         if (!badge.contains(e.target)) badge.classList.remove('open');
+      });
+    }
+
+    // Location modal
+    const modal = document.getElementById('location-modal');
+    const locRow = document.getElementById('location-row');
+    const closeBtn = document.getElementById('modal-close');
+    if (modal && locRow) {
+      const open = () => {
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      };
+      const close = () => {
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      };
+      locRow.addEventListener('click', open);
+      closeBtn?.addEventListener('click', close);
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) close();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') close();
       });
     }
   </script>
