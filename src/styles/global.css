@@ -661,6 +661,116 @@ h1.name {
   color: var(--zinc-900);
 }
 
+/* ===== Academic buckets ===== */
+.buckets {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bucket {
+  border: 1px solid var(--zinc-900);
+  border-bottom: none;
+  background: #fff;
+}
+
+.bucket:last-child {
+  border-bottom: 1px solid var(--zinc-900);
+}
+
+.bucket summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  transition: background 0.15s;
+  user-select: none;
+}
+
+.bucket summary::-webkit-details-marker {
+  display: none;
+}
+
+.bucket summary:hover {
+  background: var(--zinc-50);
+}
+
+.bucket[open] summary {
+  border-bottom: 1px solid var(--zinc-200);
+}
+
+.b-name {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+}
+
+.b-count {
+  font-size: 0.75rem;
+  color: var(--zinc-500);
+  white-space: nowrap;
+}
+
+.b-count .arrow {
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition: transform 0.2s;
+  color: var(--zinc-400);
+}
+
+.bucket[open] .b-count .arrow {
+  transform: rotate(90deg);
+}
+
+.bucket-units {
+  display: flex;
+  flex-direction: column;
+}
+
+.bucket-unit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-bottom: 1px solid var(--zinc-200);
+  transition: background 0.15s;
+}
+
+.bucket-unit:last-child {
+  border-bottom: none;
+}
+
+.bucket-unit:hover {
+  background: var(--zinc-50);
+}
+
+.u-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.u-name {
+  font-size: 0.875rem;
+  color: var(--zinc-700);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.u-meta {
+  font-size: 0.7rem;
+  color: var(--zinc-500);
+  text-align: right;
+  white-space: nowrap;
+}
+
 /* ===== Footer ===== */
 .footer {
   margin-top: 4rem;
