@@ -73,11 +73,17 @@ const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
             <div class="flex-1">
               <h1 class="name">{site.name}</h1>
               <p class="id-meta">{site.role} · {site.location}</p>
-              <div class="honours-badge">
+              <div class="honours-badge" id="honours-badge">
                 <span class="hb-star">★</span>
                 <div class="hb-inner">
                   <div class="hb-title">First Class Honours</div>
                   <div class="hb-sub">Bachelor of Software Engineering (Honours)</div>
+                </div>
+                <span class="hb-hint">proof ▾</span>
+                <div class="proof-popover" id="proof-popover">
+                  <div class="pp-label">Official Proof — Deakin University</div>
+                  <a href="/proof/academic-transcript.pdf" target="_blank" rel="noopener">📄 Academic Transcript</a>
+                  <a href="/proof/course-completion-graduation-status.pdf" target="_blank" rel="noopener">📜 Completion &amp; Graduation Status</a>
                 </div>
               </div>
             </div>
@@ -185,4 +191,18 @@ const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
       </footer>
     </div>
   </div>
+
+  <script>
+    // Mobile/tap toggle for the proof popover (hover is desktop-only)
+    const badge = document.getElementById('honours-badge');
+    if (badge) {
+      badge.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return; // let links open normally
+        badge.classList.toggle('open');
+      });
+      document.addEventListener('click', (e) => {
+        if (!badge.contains(e.target)) badge.classList.remove('open');
+      });
+    }
+  </script>
 </BaseLayout>

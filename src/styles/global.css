@@ -358,6 +358,87 @@ h1.name {
   margin-top: 2px;
 }
 
+/* proof popover */
+.honours-badge {
+  position: relative;
+  cursor: pointer;
+}
+
+.hb-hint {
+  margin-left: auto;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--green-700);
+  border: 1px solid var(--green-300);
+  background: var(--green-50);
+  border-radius: 9999px;
+  padding: 0.15rem 0.5rem;
+  white-space: nowrap;
+}
+
+.proof-popover {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  z-index: 60;
+  min-width: 300px;
+  max-width: min(90vw, 340px);
+  background: #fff;
+  border: 1px solid var(--zinc-900);
+  border-radius: 0.5rem;
+  box-shadow: 0 12px 32px rgb(0 0 0 / 0.18);
+  padding: 0.9rem;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.honours-badge:hover .proof-popover,
+.honours-badge.open .proof-popover {
+  display: flex;
+}
+
+.pp-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--zinc-400);
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--zinc-200);
+  margin-bottom: 0.15rem;
+}
+
+.proof-popover a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--blue-700);
+  border: 1px solid var(--zinc-200);
+  border-radius: 0.4rem;
+  padding: 0.55rem 0.75rem;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.proof-popover a:hover {
+  border-color: var(--blue-600);
+  background: var(--blue-50);
+  text-decoration: underline;
+}
+
+/* mobile: tap toggles, popover anchored to viewport-safe side */
+@media (max-width: 600px) {
+  .proof-popover {
+    left: auto;
+    right: 0;
+    min-width: 0;
+    width: min(85vw, 320px);
+  }
+}
+
 /* ===== Section label ===== */
 .section-label {
   font-size: 0.75rem;
