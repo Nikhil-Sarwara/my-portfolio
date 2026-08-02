@@ -1235,6 +1235,58 @@ h1.name {
   height: 100%;
   object-fit: cover;
   display: block;
+  border: 0;
+  padding: 0;
+}
+
+/* ===== Evidence lightbox ===== */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgb(0 0 0 / 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.lightbox.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox-img {
+  max-width: min(92vw, 900px);
+  max-height: 86vh;
+  object-fit: contain;
+  border: 2px solid var(--zinc-900);
+  border-radius: 0.4rem;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.6);
+  background: #fff;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--zinc-600);
+  border-radius: 50%;
+  background: rgb(0 0 0 / 0.5);
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  line-height: 1;
+  transition: background 0.15s;
+}
+
+.lightbox-close:hover {
+  background: var(--zinc-900);
 }
 
 @media (max-width: 600px) {

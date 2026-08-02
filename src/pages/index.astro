@@ -271,9 +271,9 @@ const experience = [
                       e.images && e.images.length > 0 && (
                         <div class="tl-images">
                           {e.images.map((img) => (
-                            <a href={`/${img}`} target="_blank" rel="noopener" class="tl-img" title="Open full image">
+                            <button class="tl-img" data-img={`/${img}`} type="button" title="Open full image" aria-label="Open full image">
                               <img src={`/${img}`} alt={`Evidence — ${e.title}`} loading="lazy" />
-                            </a>
+                            </button>
                           ))}
                         </div>
                       )
@@ -319,6 +319,11 @@ const experience = [
     </div>
   </div>
 
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Evidence image" />
+  </div>
+
   <script>
     // Mobile/tap toggle for the proof popover (hover is desktop-only)
     const badge = document.getElementById('honours-badge');
@@ -361,6 +366,35 @@ const experience = [
       });
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') close();
+      });
+    }
+
+    // Evidence image lightbox
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+    if (lightbox && lightboxImg) {
+      const openLb = (src) => {
+        lightboxImg.src = src;
+        lightbox.classList.add('open');
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      };
+      const closeLb = () => {
+        lightbox.classList.remove('open');
+        lightbox.setAttribute('aria-hidden', 'true');
+        lightboxImg.src = '';
+        document.body.style.overflow = '';
+      };
+      document.querySelectorAll('.tl-img').forEach((btn) => {
+        btn.addEventListener('click', () => openLb(btn.dataset.img));
+      });
+      lightboxClose?.addEventListener('click', closeLb);
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLb();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeLb();
       });
     }
   </script>
