@@ -824,8 +824,56 @@ h1.name {
 }
 
 /* ===== Academic buckets ===== */
+.bucket-toolbar {
+  margin-top: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.b-hint {
+  font-size: 0.72rem;
+  color: var(--zinc-400);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.b-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.b-action {
+  font-family: 'Geist Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--zinc-700);
+  background: #fff;
+  border: 1px solid var(--zinc-300);
+  border-radius: 0.35rem;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.b-action:hover {
+  border-color: var(--zinc-900);
+  background: var(--zinc-900);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.15);
+}
+
+.b-action:active {
+  transform: translateY(0);
+}
+
 .buckets {
-  margin-top: 2rem;
+  margin-top: 0.75rem;
   display: flex;
   flex-direction: column;
 }
@@ -834,10 +882,15 @@ h1.name {
   border: 1px solid var(--zinc-900);
   border-bottom: none;
   background: #fff;
+  transition: box-shadow 0.2s;
 }
 
 .bucket:last-child {
   border-bottom: 1px solid var(--zinc-900);
+}
+
+.bucket[open] {
+  box-shadow: 0 6px 18px rgb(0 0 0 / 0.08);
 }
 
 .bucket summary {
@@ -848,7 +901,7 @@ h1.name {
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem 1.5rem;
-  transition: background 0.15s;
+  transition: background 0.15s, padding-left 0.2s;
   user-select: none;
 }
 
@@ -858,6 +911,11 @@ h1.name {
 
 .bucket summary:hover {
   background: var(--zinc-50);
+  padding-left: 1.75rem;
+}
+
+.bucket summary:active {
+  background: var(--zinc-100);
 }
 
 .bucket[open] summary {
@@ -869,6 +927,11 @@ h1.name {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -0.025em;
+  transition: color 0.15s;
+}
+
+.bucket summary:hover .b-name {
+  color: var(--green-700);
 }
 
 .b-count {
@@ -880,15 +943,29 @@ h1.name {
 .b-count .arrow {
   display: inline-block;
   margin-left: 0.5rem;
-  transition: transform 0.2s;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
   color: var(--zinc-400);
 }
 
 .bucket[open] .b-count .arrow {
   transform: rotate(90deg);
+  color: var(--green-500);
 }
 
+/* smooth open/close via grid-rows trick */
 .bucket-units {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s ease;
+}
+
+.bucket[open] .bucket-units {
+  grid-template-rows: 1fr;
+}
+
+.bucket-units-inner {
+  min-height: 0;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -900,15 +977,26 @@ h1.name {
   gap: 1rem;
   padding: 0.8rem 1.5rem;
   border-bottom: 1px solid var(--zinc-200);
-  transition: background 0.15s;
+  transition: background 0.15s, padding-left 0.2s;
+  opacity: 0;
+  transform: translateY(8px);
+  animation: bucket-in 0.35s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 .bucket-unit:last-child {
   border-bottom: none;
 }
 
+@keyframes bucket-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .bucket-unit:hover {
   background: var(--zinc-50);
+  padding-left: 1.75rem;
 }
 
 .u-left {
@@ -926,11 +1014,32 @@ h1.name {
   white-space: nowrap;
 }
 
+.bucket-unit:hover .u-name {
+  color: var(--zinc-900);
+}
+
 .u-meta {
   font-size: 0.7rem;
   color: var(--zinc-500);
   text-align: right;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.u-arrow {
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s, transform 0.2s;
+  color: var(--green-500);
+  font-size: 0.9rem;
+}
+
+.bucket-unit:hover .u-arrow {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* ===== Buckets: mobile friendly ===== */

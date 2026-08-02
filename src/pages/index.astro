@@ -215,6 +215,13 @@ const experience = [
         <!-- Academic -->
         <div class="cell cell-wide">
           <div class="section-label">[Academic] Course Units</div>
+          <div class="bucket-toolbar">
+            <span class="b-hint">▸ click a bucket to explore</span>
+            <div class="b-actions">
+              <button class="b-action" id="expand-all" type="button">Expand all ▾</button>
+              <button class="b-action" id="collapse-all" type="button">Collapse all ▴</button>
+            </div>
+          </div>
           <div class="buckets">
             {
               buckets.map((b) => (
@@ -224,21 +231,23 @@ const experience = [
                     <span class="b-count">{b.codes.length} unit{b.codes.length > 1 ? "s" : ""} <span class="arrow">▸</span></span>
                   </summary>
                   <div class="bucket-units">
-                    {
-                      b.codes.map((code) => {
-                        const u = unitByCode[code];
-                        if (!u) return null;
-                        return (
-                          <a class="bucket-unit" href={`/units/${u.unit_code.toLowerCase()}`}>
-                            <span class="u-left">
-                              <span class="badge-code">{u.unit_code}</span>
-                              <span class="u-name">{unitLabels[u.unit_code]} — {u.unit_name}</span>
-                            </span>
-                            <span class="u-meta"><span class="badge-grade">{u.grade.split(" ")[0]}</span> · {u.semester}</span>
-                          </a>
-                        );
-                      })
-                    }
+                    <div class="bucket-units-inner">
+                      {
+                        b.codes.map((code, i) => {
+                          const u = unitByCode[code];
+                          if (!u) return null;
+                          return (
+                            <a class="bucket-unit" style={`animation-delay:${i * 60}ms`} href={`/units/${u.unit_code.toLowerCase()}`}>
+                              <span class="u-left">
+                                <span class="badge-code">{u.unit_code}</span>
+                                <span class="u-name">{unitLabels[u.unit_code]} — {u.unit_name}</span>
+                              </span>
+                              <span class="u-meta"><span class="badge-grade">{u.grade.split(" ")[0]}</span> · {u.semester}<span class="u-arrow"> →</span></span>
+                            </a>
+                          );
+                        })
+                      }
+                    </div>
                   </div>
                 </details>
               ))
@@ -396,6 +405,15 @@ const experience = [
       document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') closeLb();
       });
+    }
+
+    // Buckets: expand / collapse all
+    const expandAll = document.getElementById('expand-all');
+    const collapseAll = document.getElementById('collapse-all');
+    const buckets = document.querySelectorAll('.bucket');
+    if (expandAll && collapseAll) {
+      expandAll.addEventListener('click', () => buckets.forEach((b) => (b.open = true)));
+      collapseAll.addEventListener('click', () => buckets.forEach((b) => (b.open = false)));
     }
   </script>
 </BaseLayout>
