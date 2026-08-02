@@ -50,6 +50,59 @@ const buckets = [
 ];
 
 const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
+
+const experience = [
+  {
+    period: "2018",
+    title: "Robotics Developer",
+    org: "Kidobotics",
+    desc: "Built \u201CVictory\u201D — a bomb-disposal & surveillance robot. 1st prize, 3rd National Level Junior Robotic Challenge (Bangalore).",
+    evidence: [{ label: "The Tribune", url: "https://www.tribuneindia.com/news/archive/haryana-tribune/ambala-students-develop-bomb-disposal-robot-663689/" }],
+  },
+  {
+    period: "2019",
+    title: "Robotics Developer & Workshop Mentor",
+    org: "Kidobotics",
+    desc: "Smart dustbin robot — solar powered, AI sensors, auto lid + GSM/SMS alerts. Took robotics workshops at public events.",
+    evidence: [{ label: "Dainik Bhaskar", url: "https://www.bhaskar.com/haryana/ambala/news/haryana-news-bps-students-created-smart-dustbin-robot-071541-4371711.html" }],
+  },
+  {
+    period: "2019 \u2013 2022",
+    title: "Ethical Hacker",
+    org: "Client Work",
+    desc: "Worked with clients on ethical hacking engagements.",
+  },
+  {
+    period: "2022",
+    title: "B.E. Computer Science",
+    org: "Chitkara University",
+    desc: "Started university; credits later transferred to Deakin.",
+  },
+  {
+    period: "2024",
+    title: "Forklift Driver & Manager",
+    org: "MKM Tiles",
+    desc: "Winter holidays — forklift operations and on-site management.",
+  },
+  {
+    period: "2024 \u2013 2026",
+    title: "B. Software Engineering (Honours)",
+    org: "Deakin University",
+    desc: "Graduated with First Class Honours. Minor in Cyber Security.",
+  },
+  {
+    period: "2025",
+    title: "Van Driver",
+    org: "DHL",
+    desc: "Winter holidays — delivery operations.",
+  },
+  {
+    period: "2026",
+    title: "Full Stack Developer",
+    org: "BibVault",
+    desc: "Worked as a full stack developer during my final trimester.",
+  },
+];
 ---
 <BaseLayout>
   <div class="page">
@@ -178,6 +231,34 @@ const unitByCode = Object.fromEntries(units.map((u) => [u.unit_code, u]));
                     }
                   </div>
                 </details>
+              ))
+            }
+          </div>
+        </div>
+        <!-- Experience Timeline -->
+        <div class="cell cell-wide">
+          <div class="section-label">[Experience] Timeline</div>
+          <div class="timeline">
+            {
+              experience.map((e) => (
+                <div class="tl-item">
+                  <div class="tl-rail">
+                    <span class="tl-dot"></span>
+                  </div>
+                  <div class="tl-body">
+                    <div class="tl-period">{e.period}</div>
+                    <div class="tl-title">{e.title}</div>
+                    <div class="tl-org">{e.org}</div>
+                    <p class="tl-desc">{e.desc}</p>
+                    {
+                      e.evidence && e.evidence.length > 0 && (
+                        <div class="tl-evidence">
+                          {e.evidence.map((ev) => <a href={ev.url} target="_blank" rel="noopener">📰 {ev.label} →</a>)}
+                        </div>
+                      )
+                    }
+                  </div>
+                </div>
               ))
             }
           </div>
