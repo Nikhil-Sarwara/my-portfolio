@@ -122,6 +122,7 @@ const experience = [
     title: "B.E. Computer Science",
     org: "Chitkara University",
     desc: "Started university; credits later transferred to Deakin.",
+    studyTimeline: true,
   },
   {
     period: "2024",
@@ -296,46 +297,6 @@ const experience = [
             }
           </div>
         </div>
-        <!-- Studies Giant Timeline -->
-        <div class="cell cell-wide">
-          <div class="section-label">[Studies] Giant Timeline <span class="st-count">{stTotal} uploads · {stTotalViews.toLocaleString()} views · Dec 2022 → Feb 2024</span></div>
-          <div class="st-note">Every study video I published — screen casts, demos &amp; task submissions across my Deakin units.</div>
-          <div class="st-timeline">
-            {
-              stYears.map((y) => (
-                <div class="st-year">
-                  <div class="st-year-head">
-                    <span class="st-year-label">{y}</span>
-                    <span class="st-year-count">{Object.values(stByYear[y]).reduce((a, m) => a + m.items.length, 0)} videos</span>
-                  </div>
-                  {
-                    Object.keys(stByYear[y]).sort().reverse().map((mk) => {
-                      const month = stByYear[y][mk];
-                      return (
-                        <div class="st-month">
-                          <div class="st-month-label">{month.label}</div>
-                          <div class="st-month-items">
-                            {
-                              month.items.map((e) => (
-                                <a class="st-item" href={e.url} target="_blank" rel="noopener">
-                                  <span class="st-date">{e.date.slice(6, 8)} {monthsShort[parseInt(e.date.slice(4, 6), 10) - 1]}</span>
-                                  <span class="st-title">{e.title}</span>
-                                  {e.unit && <span class="st-unit">{e.unit}</span>}
-                                  <span class="st-meta"><span class="st-views">{e.views} views</span> · {e.duration}</span>
-                                  <span class="st-arrow">→</span>
-                                </a>
-                              ))
-                            }
-                          </div>
-                        </div>
-                      );
-                    })
-                  }
-                </div>
-              ))
-            }
-          </div>
-        </div>
 
         <!-- Experience Timeline -->
         <div class="cell cell-wide">
@@ -352,6 +313,52 @@ const experience = [
                     <div class="tl-title">{e.title}</div>
                     <div class="tl-org">{e.org}</div>
                     <p class="tl-desc">{e.desc}</p>
+                    {
+                      e.studyTimeline && (
+                        <details class="tl-studies">
+                          <summary>
+                            <span class="tl-studies-label">📺 Study Timeline — {stTotal} uploads · {stTotalViews.toLocaleString()} views · Dec 2022 → Feb 2024</span>
+                            <span class="tl-studies-arrow">▸</span>
+                          </summary>
+                          <div class="st-note">Every study video I published — screen casts, demos &amp; task submissions across my units.</div>
+                          <div class="st-timeline">
+                            {
+                              stYears.map((y) => (
+                                <div class="st-year">
+                                  <div class="st-year-head">
+                                    <span class="st-year-label">{y}</span>
+                                    <span class="st-year-count">{Object.values(stByYear[y]).reduce((a, m) => a + m.items.length, 0)} videos</span>
+                                  </div>
+                                  {
+                                    Object.keys(stByYear[y]).sort().reverse().map((mk) => {
+                                      const month = stByYear[y][mk];
+                                      return (
+                                        <div class="st-month">
+                                          <div class="st-month-label">{month.label}</div>
+                                          <div class="st-month-items">
+                                            {
+                                              month.items.map((e) => (
+                                                <a class="st-item" href={e.url} target="_blank" rel="noopener">
+                                                  <span class="st-date">{e.date.slice(6, 8)} {monthsShort[parseInt(e.date.slice(4, 6), 10) - 1]}</span>
+                                                  <span class="st-title">{e.title}</span>
+                                                  {e.unit && <span class="st-unit">{e.unit}</span>}
+                                                  <span class="st-meta"><span class="st-views">{e.views} views</span> · {e.duration}</span>
+                                                  <span class="st-arrow">→</span>
+                                                </a>
+                                              ))
+                                            }
+                                          </div>
+                                        </div>
+                                      );
+                                    })
+                                  }
+                                </div>
+                              ))
+                            }
+                          </div>
+                        </details>
+                      )
+                    }
                     {
                       e.evidence && e.evidence.length > 0 && (
                         <div class="tl-evidence">

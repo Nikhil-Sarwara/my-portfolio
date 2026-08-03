@@ -1819,3 +1819,90 @@ h1.name {
     margin-top: 0.25rem;
   }
 }
+
+/* ===== Studies timeline inside Chitkara tile (expandable) ===== */
+.tl-studies {
+  margin-top: 0.9rem;
+  border: 1px solid var(--zinc-200);
+  border-radius: 0.5rem;
+  background: var(--zinc-50);
+  transition: border-color 0.15s;
+}
+
+.tl-studies:hover {
+  border-color: var(--green-500);
+}
+
+.tl-studies summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  user-select: none;
+  font-weight: 700;
+}
+
+.tl-studies summary::-webkit-details-marker {
+  display: none;
+}
+
+.tl-studies-label {
+  font-size: 0.8rem;
+  color: var(--green-700);
+}
+
+.tl-studies-arrow {
+  flex-shrink: 0;
+  color: var(--zinc-400);
+  transition: transform 0.2s;
+}
+
+.tl-studies[open] .tl-studies-arrow {
+  transform: rotate(90deg);
+}
+
+.tl-studies[open] {
+  border-color: var(--green-500);
+  box-shadow: 0 4px 16px rgb(0 199 88 / 0.10);
+}
+
+.tl-studies .st-note {
+  margin: 0 1rem 0.25rem;
+  font-size: 0.75rem;
+}
+
+.tl-studies .st-timeline {
+  margin-top: 0.5rem;
+  padding: 0 1rem 1rem;
+  max-height: 28rem;
+  overflow-y: auto;
+  gap: 1.25rem;
+}
+
+.tl-studies .st-timeline::-webkit-scrollbar {
+  width: 6px;
+}
+
+.tl-studies .st-timeline::-webkit-scrollbar-thumb {
+  background: var(--zinc-300);
+  border-radius: 3px;
+}
+
+.tl-studies .st-year {
+  border-left-color: var(--zinc-400);
+}
+
+.tl-studies .st-year-label {
+  font-size: 1.1rem;
+}
+
+.tl-studies .st-month-label {
+  font-size: 0.62rem;
+}
+
+.tl-studies .st-item {
+  padding: 0.4rem 0.5rem;
+}
