@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import units from '../data/portfolio.json';
+import studyTimeline from '../data/study-timeline.json';
 
 const site = {
   name: "NIKHIL SARWARA",
@@ -35,6 +36,22 @@ const unitLabels = {
   "SIT313": "Full-Stack", "SIT314": "Cloud", "SIT329": "Cybersec", "SIT331": "Backend",
   "SIT333": "Research", "SIT379": "Project Mgmt", "SIT723/SIT792": "Research T",
 };
+
+// Giant study timeline — from YouTube upload history (Dec 2022 → Feb 2024)
+// Group by year → month for the vertical timeline
+const monthsShort = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const stByYear = {};
+for (const e of studyTimeline) {
+  const y = e.date.slice(0, 4);
+  const m = e.date.slice(4, 6);
+  const key = `${y}-${m}`;
+  if (!stByYear[y]) stByYear[y] = {};
+  if (!stByYear[y][key]) stByYear[y][key] = { label: `${monthsShort[parseInt(m, 10) - 1]} ${y}`, items: [] };
+  stByYear[y][key].items.push(e);
+}
+const stYears = Object.keys(stByYear).sort().reverse();
+const stTotal = studyTimeline.length;
+const stTotalViews = studyTimeline.reduce((a, e) => a + e.views, 0);
 
 const buckets = [
   { name: "Programming & OOP", codes: ["SIT102", "SIT232"] },
@@ -279,6 +296,47 @@ const experience = [
             }
           </div>
         </div>
+        <!-- Studies Giant Timeline -->
+        <div class="cell cell-wide">
+          <div class="section-label">[Studies] Giant Timeline <span class="st-count">{stTotal} uploads · {stTotalViews.toLocaleString()} views · Dec 2022 → Feb 2024</span></div>
+          <div class="st-note">Every study video I published — screen casts, demos &amp; task submissions across my Deakin units.</div>
+          <div class="st-timeline">
+            {
+              stYears.map((y) => (
+                <div class="st-year">
+                  <div class="st-year-head">
+                    <span class="st-year-label">{y}</span>
+                    <span class="st-year-count">{Object.values(stByYear[y]).reduce((a, m) => a + m.items.length, 0)} videos</span>
+                  </div>
+                  {
+                    Object.keys(stByYear[y]).sort().reverse().map((mk) => {
+                      const month = stByYear[y][mk];
+                      return (
+                        <div class="st-month">
+                          <div class="st-month-label">{month.label}</div>
+                          <div class="st-month-items">
+                            {
+                              month.items.map((e) => (
+                                <a class="st-item" href={e.url} target="_blank" rel="noopener">
+                                  <span class="st-date">{e.date.slice(6, 8)} {monthsShort[parseInt(e.date.slice(4, 6), 10) - 1]}</span>
+                                  <span class="st-title">{e.title}</span>
+                                  {e.unit && <span class="st-unit">{e.unit}</span>}
+                                  <span class="st-meta"><span class="st-views">{e.views} views</span> · {e.duration}</span>
+                                  <span class="st-arrow">→</span>
+                                </a>
+                              ))
+                            }
+                          </div>
+                        </div>
+                      );
+                    })
+                  }
+                </div>
+              ))
+            }
+          </div>
+        </div>
+
         <!-- Experience Timeline -->
         <div class="cell cell-wide">
           <div class="section-label">[Experience] Timeline</div>
