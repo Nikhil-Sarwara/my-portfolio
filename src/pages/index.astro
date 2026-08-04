@@ -51,7 +51,6 @@ for (const e of studyTimeline) {
 }
 const stYears = Object.keys(stByYear).sort().reverse();
 const stTotal = studyTimeline.length;
-const stTotalViews = studyTimeline.reduce((a, e) => a + e.views, 0);
 
 const buckets = [
   { name: "Programming & OOP", codes: ["SIT102", "SIT232"] },
@@ -317,7 +316,7 @@ const experience = [
                       e.studyTimeline && (
                         <details class="tl-studies">
                           <summary>
-                            <span class="tl-studies-label">📺 Study Timeline — {stTotal} uploads · {stTotalViews.toLocaleString()} views · Dec 2022 → Feb 2024</span>
+                            <span class="tl-studies-label">📺 Study Timeline — {stTotal} uploads · Dec 2022 → Feb 2024</span>
                             <span class="tl-studies-arrow">▸</span>
                           </summary>
                           <div class="st-note">Every study video I published — screen casts, demos &amp; task submissions across my units.</div>
@@ -342,7 +341,7 @@ const experience = [
                                                   <span class="st-date">{e.date.slice(6, 8)} {monthsShort[parseInt(e.date.slice(4, 6), 10) - 1]}</span>
                                                   <span class="st-title">{e.title}</span>
                                                   {e.unit && <span class="st-unit">{e.unit}</span>}
-                                                  <span class="st-meta"><span class="st-views">{e.views} views</span> · {e.duration}</span>
+                                                  <span class="st-meta">{e.duration}</span>
                                                   <span class="st-arrow">→</span>
                                                 </a>
                                               ))

@@ -1788,11 +1788,6 @@ h1.name {
   white-space: nowrap;
 }
 
-.st-views {
-  color: var(--green-700);
-  font-weight: 700;
-}
-
 .st-arrow {
   flex-shrink: 0;
   color: var(--zinc-300);

@@ -1,664 +1,581 @@
 [
  {
   "date": "20221226",
-  "title": "How to add two numbers using Hack Assembly Language by Nikhil",
-  "views": 122,
+  "title": "Hack Assembly in Action — Adding Two Numbers, Step by Step | By Nikhil",
   "duration": "11m46s",
   "url": "https://youtu.be/IfVrZddeedQ",
   "unit": "SIT111"
  },
  {
   "date": "20230121",
-  "title": "ScreenCast of Invoice Generator Program (Talk Through Code) (7.4D Task)",
-  "views": 6,
+  "title": "Invoice Generator — Code Walkthrough (Task 7.4D) | By Nikhil",
   "duration": "3m18s",
   "url": "https://youtu.be/o83PYFqIe9Y",
   "unit": "SIT102"
  },
  {
   "date": "20230121",
-  "title": "Custom Program 7.4D Introduction To Programming By Nikhil (Invoice Generator).",
-  "views": 8,
+  "title": "Invoice Generator — Custom Program (Task 7.4D) | By Nikhil",
   "duration": "7m09s",
   "url": "https://youtu.be/XzQTBZeLSf4",
   "unit": "SIT102"
  },
  {
   "date": "20230124",
-  "title": "invoice generator Something Awesome task by Nikhil (102 introduction to Programming)",
-  "views": 10,
+  "title": "Invoice Generator — \"Something Awesome\" Task Demo | By Nikhil",
   "duration": "3m51s",
   "url": "https://youtu.be/9cj3qjjDeOo",
   "unit": "SIT102"
  },
  {
   "date": "20230307",
-  "title": "Arduino Fade Led Project - Easy and Fun - By Nikhil",
-  "views": 14,
+  "title": "Arduino LED Fade — Quick & Fun Project | By Nikhil",
   "duration": "0m14s",
   "url": "https://youtu.be/oRxcxMQdyZk",
   "unit": "SIT210"
  },
  {
   "date": "20230307",
-  "title": "Alternative Arduino Blink Project - Easy and Fun! - By Nikhil",
-  "views": 18,
+  "title": "Arduino LED Blink — Quick & Fun Project | By Nikhil",
   "duration": "0m09s",
   "url": "https://youtu.be/B4DmP2oqNSw",
   "unit": "SIT210"
  },
  {
   "date": "20230314",
-  "title": "Trade Hub - New Project \"Back end\" - By Nikhil",
-  "views": 33,
+  "title": "Trade Hub — Backend Build (New Project) | By Nikhil",
   "duration": "3m21s",
   "url": "https://youtu.be/qPswfarsK6w",
   "unit": null
  },
  {
   "date": "20230316",
-  "title": "Introduction To This Play List Of C# Language (Table Of Contents)",
-  "views": 86,
+  "title": "Learn C# — Playlist Intro & Table of Contents | By Nikhil",
   "duration": "1m25s",
   "url": "https://youtu.be/LCMJPEtv3IE",
   "unit": "SIT232"
  },
  {
   "date": "20230317",
-  "title": "Part 4 - Reading And Writing To The Console - Learn C# Language by Nikhil",
-  "views": 15,
+  "title": "Part 4 — Reading & Writing to the Console | Learn C# by Nikhil",
   "duration": "7m09s",
   "url": "https://youtu.be/UdOJb4NmN-U",
   "unit": "SIT232"
  },
  {
   "date": "20230317",
-  "title": "Part 3 - Namespace, Main Method And Top Level Statements",
-  "views": 42,
+  "title": "Part 3 — Namespaces, Main Method & Top-Level Statements | Learn C# by Nikhil",
   "duration": "6m07s",
   "url": "https://youtu.be/u3XQ9-2UU_c",
   "unit": null
  },
  {
   "date": "20230318",
-  "title": "Part 5 - Built-in Data Types - Learn C# Language by Nikhil",
-  "views": 17,
+  "title": "Part 5 — Built-in Data Types | Learn C# by Nikhil",
   "duration": "3m09s",
   "url": "https://youtu.be/IxKlNGJyCRw",
   "unit": "SIT232"
  },
  {
   "date": "20230319",
-  "title": "Part 11 - Date Time Formate Specifiers",
-  "views": 8,
+  "title": "Part 11 — Date & Time Format Specifiers | Learn C# by Nikhil",
   "duration": "9m37s",
   "url": "https://youtu.be/rxT1oAIHGBs",
   "unit": null
  },
  {
   "date": "20230319",
-  "title": "Part 10 - Constant Variables",
-  "views": 2,
+  "title": "Part 10 — Constant Variables | Learn C# by Nikhil",
   "duration": "4m48s",
   "url": "https://youtu.be/uY6fUA851Bg",
   "unit": null
  },
  {
   "date": "20230319",
-  "title": "Part 9 - Data Type Conversion",
-  "views": 5,
+  "title": "Part 9 — Data Type Conversion & Casting | Learn C# by Nikhil",
   "duration": "6m39s",
   "url": "https://youtu.be/qL5emiHDl9Y",
   "unit": null
  },
  {
   "date": "20230319",
-  "title": "Part 8 - Escape Sequences",
-  "views": 6,
+  "title": "Part 8 — Escape Sequences Explained | Learn C# by Nikhil",
   "duration": "12m45s",
   "url": "https://youtu.be/w6QCFyZZANQ",
   "unit": null
  },
  {
   "date": "20230319",
-  "title": "Part 7 - String And Characters",
-  "views": 10,
+  "title": "Part 7 — Strings & Characters | Learn C# by Nikhil",
   "duration": "22m45s",
   "url": "https://youtu.be/lnAQvW9ujnA",
   "unit": null
  },
  {
   "date": "20230319",
-  "title": "Part 6 - Float, Double and Decimal Data Types",
-  "views": 11,
+  "title": "Part 6 — Float, Double & Decimal Data Types | Learn C# by Nikhil",
   "duration": "6m56s",
   "url": "https://youtu.be/XfvnNxr-3oQ",
   "unit": null
  },
  {
   "date": "20230319",
-  "title": "Part 2 - What is CLR?",
-  "views": 36,
+  "title": "Part 2 — What Is the CLR? | Learn C# by Nikhil",
   "duration": "2m14s",
   "url": "https://youtu.be/5xGZP9WESHY",
   "unit": null
  },
  {
   "date": "20230319",
-  "title": "Part 1 - Intro And Download Tools For This Course",
-  "views": 41,
+  "title": "Part 1 — Intro & Installing the Tools | Learn C# by Nikhil",
   "duration": "1m22s",
   "url": "https://youtu.be/Lo7tHmNqKf0",
   "unit": null
  },
  {
   "date": "20230322",
-  "title": "DHT22 - Temperature and Humidity Sensor Demo",
-  "views": 14,
+  "title": "DHT22 Sensor Demo — Temperature & Humidity | By Nikhil",
   "duration": "0m28s",
   "url": "https://youtu.be/1LdYT19pQyQ",
   "unit": "SIT210"
  },
  {
   "date": "20230323",
-  "title": "Part 12 - Statements Expressions and Operators",
-  "views": 7,
+  "title": "Part 12 — Statements, Expressions & Operators | Learn C# by Nikhil",
   "duration": "10m39s",
   "url": "https://youtu.be/ya5OyAgWVjo",
   "unit": null
  },
  {
   "date": "20230325",
-  "title": "Part 13 - Arithmetic Operators",
-  "views": 5,
+  "title": "Part 13 — Arithmetic Operators | Learn C# by Nikhil",
   "duration": "11m00s",
   "url": "https://youtu.be/zys-LkPER0w",
   "unit": null
  },
  {
   "date": "20230325",
-  "title": "Part 15 - Logical Operators",
-  "views": 8,
+  "title": "Part 15 — Logical Operators | Learn C# by Nikhil",
   "duration": "7m06s",
   "url": "https://youtu.be/fA8u6uwZd9g",
   "unit": null
  },
  {
   "date": "20230325",
-  "title": "Part 14 - Relational Operations",
-  "views": 2,
+  "title": "Part 14 — Relational Operators | Learn C# by Nikhil",
   "duration": "5m46s",
   "url": "https://youtu.be/zvW3bGHbXy4",
   "unit": null
  },
  {
   "date": "20230325",
-  "title": "Learn Markdown Language (Additional Github Flavor) - By Nikhil",
-  "views": 11,
+  "title": "Markdown Mastery — GitHub Flavored Markdown | By Nikhil",
   "duration": "10m35s",
   "url": "https://youtu.be/PfTlHMxi6pI",
   "unit": "SIT102"
  },
  {
   "date": "20230326",
-  "title": "Part 19 - Precedence of Operators",
-  "views": 18,
+  "title": "Part 19 — Operator Precedence | Learn C# by Nikhil",
   "duration": "6m08s",
   "url": "https://youtu.be/IULcj5s6emM",
   "unit": null
  },
  {
   "date": "20230326",
-  "title": "Part 20 - If Else Statements in C#",
-  "views": 9,
+  "title": "Part 20 — If/Else Statements | Learn C# by Nikhil",
   "duration": "2m39s",
   "url": "https://youtu.be/D4kGdb3DgCA",
   "unit": "SIT232"
  },
  {
   "date": "20230326",
-  "title": "Part 21 - Nested if Statements",
-  "views": 12,
+  "title": "Part 21 — Nested If Statements | Learn C# by Nikhil",
   "duration": "6m40s",
   "url": "https://youtu.be/6QagA6YPZ6U",
   "unit": null
  },
  {
   "date": "20230326",
-  "title": "Part 17 - Increment and Decrement Operators in C#",
-  "views": 4,
+  "title": "Part 17 — Increment & Decrement Operators | Learn C# by Nikhil",
   "duration": "4m09s",
   "url": "https://youtu.be/yWKoNgfAIb4",
   "unit": "SIT232"
  },
  {
   "date": "20230326",
-  "title": "Part 18 - Ternary operator",
-  "views": 5,
+  "title": "Part 18 — The Ternary Operator | Learn C# by Nikhil",
   "duration": "4m13s",
   "url": "https://youtu.be/6O0_XZlFyfA",
   "unit": null
  },
  {
   "date": "20230326",
-  "title": "Part 16 - Assignment Operators",
-  "views": 4,
+  "title": "Part 16 — Assignment Operators | Learn C# by Nikhil",
   "duration": "8m27s",
   "url": "https://youtu.be/1KeTJtHnGgQ",
   "unit": null
  },
  {
   "date": "20230331",
-  "title": "ood 232   task 3 1P part1",
-  "views": 4,
+  "title": "OOD Task 3.1P — Demo Part 1 | By Nikhil",
   "duration": "0m12s",
   "url": "https://youtu.be/P0fByjW6IkM",
   "unit": "SIT232"
  },
  {
   "date": "20230331",
-  "title": "ood 232   task 3 1P part2",
-  "views": 4,
+  "title": "OOD Task 3.1P — Demo Part 2 | By Nikhil",
   "duration": "0m08s",
   "url": "https://youtu.be/OWvjdCwnvNs",
   "unit": "SIT232"
  },
  {
   "date": "20230331",
-  "title": "ood 232   task 3 1P part3",
-  "views": 2,
+  "title": "OOD Task 3.1P — Demo Part 3 | By Nikhil",
   "duration": "0m09s",
   "url": "https://youtu.be/rSQkLi9hJSs",
   "unit": "SIT232"
  },
  {
   "date": "20230331",
-  "title": "ood 232   task 3 1P part4",
-  "views": 5,
+  "title": "OOD Task 3.1P — Demo Part 4 | By Nikhil",
   "duration": "0m21s",
   "url": "https://youtu.be/LTSm6kUgQzQ",
   "unit": "SIT232"
  },
  {
   "date": "20230331",
-  "title": "ood 232   task 3 1P part5",
-  "views": 2,
+  "title": "OOD Task 3.1P — Demo Part 5 | By Nikhil",
   "duration": "0m21s",
   "url": "https://youtu.be/bfzquzggim0",
   "unit": "SIT232"
  },
  {
   "date": "20230331",
-  "title": "ood 232   task 3 1P part6 and all others",
-  "views": 9,
+  "title": "OOD Task 3.1P — Demo Part 6 & Wrap-Up | By Nikhil",
   "duration": "1m01s",
   "url": "https://youtu.be/P2qX9PBnBFA",
   "unit": "SIT232"
  },
  {
   "date": "20230331",
-  "title": "OOD Task 3.2P ScreenCast Video By Nikhil",
-  "views": 15,
+  "title": "OOD Task 3.2P — ScreenCast Walkthrough | By Nikhil",
   "duration": "0m48s",
   "url": "https://youtu.be/uJSwqwaFVZ8",
   "unit": null
  },
  {
   "date": "20230404",
-  "title": "My Polynomial Task 3.3C ScreenCast By Nikhil",
-  "views": 20,
+  "title": "Polynomial Project — Task 3.3C ScreenCast | By Nikhil",
   "duration": "1m26s",
   "url": "https://youtu.be/c5eIpeeC5wk",
   "unit": "SIT111"
  },
  {
   "date": "20230404",
-  "title": "3 4D BucketSort ScreenCast Running Program By Nikhil",
-  "views": 11,
+  "title": "Bucket Sort Algorithm — Task 3.4D Demo | By Nikhil",
   "duration": "1m44s",
   "url": "https://youtu.be/3CfV8iyhI20",
   "unit": "SIT111"
  },
  {
   "date": "20230413",
-  "title": "ScreenCast 4.2C Task",
-  "views": 16,
+  "title": "Task 4.2C — ScreenCast Demo & Walkthrough | By Nikhil",
   "duration": "3m10s",
   "url": "https://youtu.be/IugsYyrQ4Tw",
   "unit": null
  },
  {
   "date": "20230414",
-  "title": "ScreenCast 6.1P OOD 232",
-  "views": 9,
+  "title": "Task 6.1P — ScreenCast Demo (OOD) | By Nikhil",
   "duration": "0m20s",
   "url": "https://youtu.be/W9l7nMmXT4o",
   "unit": "SIT232"
  },
  {
   "date": "20230414",
-  "title": "Screen Cast Task 5.2P OOD 232",
-  "views": 12,
+  "title": "Task 5.2P — ScreenCast Demo (OOD) | By Nikhil",
   "duration": "2m35s",
   "url": "https://youtu.be/cJPWg8rbSbQ",
   "unit": "SIT232"
  },
  {
   "date": "20230414",
-  "title": "ScreenCast Task 5.1 OOD 232",
-  "views": 5,
+  "title": "Task 5.1 — ScreenCast Demo (OOD) | By Nikhil",
   "duration": "1m03s",
   "url": "https://youtu.be/aQSL_AJ3vIw",
   "unit": "SIT232"
  },
  {
   "date": "20230421",
-  "title": "Screen Cast Task 5.3D SIT 232 - Object Oriented Development",
-  "views": 118,
+  "title": "Task 5.3D — Object-Oriented Development ScreenCast | By Nikhil",
   "duration": "0m41s",
   "url": "https://youtu.be/XuMflJyuOdU",
   "unit": "SIT232"
  },
  {
   "date": "20230423",
-  "title": "Task 6.1P software engineering",
-  "views": 17,
+  "title": "Task 6.1P — Software Engineering Demo | By Nikhil",
   "duration": "3m08s",
   "url": "https://youtu.be/IJn-so7e3UE",
   "unit": "SIT218"
  },
  {
   "date": "20230423",
-  "title": "Controlling Servo Motor By Nikhil",
-  "views": 14,
+  "title": "Servo Motor Control — Hands-On Demo | By Nikhil",
   "duration": "1m18s",
   "url": "https://youtu.be/nxG17AXSVeg",
   "unit": "SIT218"
  },
  {
   "date": "20230423",
-  "title": "New ScreenCast of 5.2P Task - OOD",
-  "views": 50,
+  "title": "Task 5.2P Revisited — Updated ScreenCast (OOD) | By Nikhil",
   "duration": "1m19s",
   "url": "https://youtu.be/Q2Ak85UcKw8",
   "unit": null
  },
  {
   "date": "20230423",
-  "title": "Bluetooth Control Car By Nikhil Software Engineering",
-  "views": 21,
+  "title": "Bluetooth-Controlled Car — Software Engineering Demo | By Nikhil",
   "duration": "0m21s",
   "url": "https://youtu.be/qifjxUscJwc",
   "unit": "SIT218"
  },
  {
   "date": "20230426",
-  "title": "Testing HD Task 232 OOD by Nikhil",
-  "views": 21,
+  "title": "Testing Showcase — HD Task (OOD) | By Nikhil",
   "duration": "0m49s",
   "url": "https://youtu.be/1PLTfyVLoQ0",
   "unit": null
  },
  {
   "date": "20230426",
-  "title": "HD Task ScreenCast SIT 232",
-  "views": 19,
+  "title": "HD Task — ScreenCast Demo (SIT232) | By Nikhil",
   "duration": "0m38s",
   "url": "https://youtu.be/XwfOCpX_M9Y",
   "unit": "SIT232"
  },
  {
   "date": "20230427",
-  "title": "Task 6 2 ScreenCast OOD 232 By Nikhil",
-  "views": 10,
+  "title": "Task 6.2 — ScreenCast Demo (OOD) | By Nikhil",
   "duration": "1m56s",
   "url": "https://youtu.be/BVrNBesOnVA",
   "unit": "SIT232"
  },
  {
   "date": "20230428",
-  "title": "Distinction Task Reaction Timer Game ScreenCast By Nikhil",
-  "views": 27,
+  "title": "Reaction Timer Game — Distinction Task ScreenCast | By Nikhil",
   "duration": "0m45s",
   "url": "https://youtu.be/FB3R3HOeIuU",
   "unit": "SIT232"
  },
  {
   "date": "20230510",
-  "title": "Master Slave Car",
-  "views": 32,
+  "title": "Master-Slave Car — Robotic Control Demo | By Nikhil",
   "duration": "3m55s",
   "url": "https://youtu.be/Mt4cRHiVy98",
   "unit": "SIT218"
  },
  {
   "date": "20230510",
-  "title": "Task 7.1C SIT217",
-  "views": 8,
+  "title": "Task 7.1C — ScreenCast Demo | By Nikhil",
   "duration": "2m34s",
   "url": "https://youtu.be/Mlg1i3ERsik",
   "unit": "SIT217"
  },
  {
   "date": "20230525",
-  "title": "Web application car controller by Nikhil",
-  "views": 15,
+  "title": "Web App Car Controller — Drive from Your Browser | By Nikhil",
   "duration": "3m18s",
   "url": "https://youtu.be/6IVHMyLLbQU",
   "unit": "SIT313"
  },
  {
   "date": "20230601",
-  "title": "Final Project Video Presentation - MCS - SIT 123 - Data Capture Technologies - By Nikhil",
-  "views": 66,
+  "title": "Final Project Presentation — Data Capture Technologies (SIT123) | By Nikhil",
   "duration": "2m08s",
   "url": "https://youtu.be/cTn9jSZkHJg",
   "unit": "SIT123"
  },
  {
   "date": "20230607",
-  "title": "Sign Language Robot",
-  "views": 28,
+  "title": "Sign Language Robot — Gesture Recognition Demo | By Nikhil",
   "duration": "2m20s",
   "url": "https://youtu.be/7ha4yVPUaRc",
   "unit": "SIT218"
  },
  {
   "date": "20230616",
-  "title": "sample video",
-  "views": 17,
+  "title": "Sample Demo Video | By Nikhil",
   "duration": "0m51s",
   "url": "https://youtu.be/QyRlOusDR1E",
   "unit": null
  },
  {
   "date": "20230813",
-  "title": "task 2.1P morse code",
-  "views": 25,
+  "title": "Morse Code Transmitter — Task 2.1P Demo | By Nikhil",
   "duration": "0m31s",
   "url": "https://youtu.be/htiomHPLvEM",
   "unit": "SIT210"
  },
  {
   "date": "20230819",
-  "title": "new morse code - updated",
-  "views": 48,
+  "title": "Morse Code Transmitter — Updated Demo | By Nikhil",
   "duration": "0m25s",
   "url": "https://youtu.be/BEAnDkLRvQ0",
   "unit": "SIT210"
  },
  {
   "date": "20230820",
-  "title": "task demo video nano 33 iot temperature thing speak",
-  "views": 25,
+  "title": "Nano 33 IoT — Temperature to ThingSpeak Demo | By Nikhil",
   "duration": "1m27s",
   "url": "https://youtu.be/Di8maEFYyDQ",
   "unit": "SIT310"
  },
  {
   "date": "20230825",
-  "title": "task 2.2C demo video",
-  "views": 24,
+  "title": "Task 2.2C — Demo Video | By Nikhil",
   "duration": "3m08s",
   "url": "https://youtu.be/_xxFe_QURsE",
   "unit": null
  },
  {
   "date": "20230827",
-  "title": "new post task sit 313",
-  "views": 29,
+  "title": "POST Request Demo — SIT313 Web App | By Nikhil",
   "duration": "1m13s",
   "url": "https://youtu.be/VGfIqCPBXE0",
   "unit": "SIT313"
  },
  {
   "date": "20230827",
-  "title": "task home page deakin sit 313",
-  "views": 25,
+  "title": "Deakin Home Page Clone — SIT313 Task | By Nikhil",
   "duration": "3m04s",
   "url": "https://youtu.be/oUcv2vSKRoY",
   "unit": "SIT313"
  },
  {
   "date": "20230827",
-  "title": "iot webhook ifttt task",
-  "views": 19,
+  "title": "IoT Webhook with IFTTT — Task Demo | By Nikhil",
   "duration": "1m45s",
   "url": "https://youtu.be/x-y3mgemFhY",
   "unit": "SIT310"
  },
  {
   "date": "20230828",
-  "title": "rasp tasl led blinker",
-  "views": 36,
+  "title": "Raspberry Pi LED Blinker — Task Demo | By Nikhil",
   "duration": "0m24s",
   "url": "https://youtu.be/4g4RldYGxUs",
   "unit": "SIT210"
  },
  {
   "date": "20230828",
-  "title": "login page task",
-  "views": 26,
+  "title": "Login Page — Authentication Demo | By Nikhil",
   "duration": "1m41s",
   "url": "https://youtu.be/0CsRaiTf3xg",
   "unit": "SIT313"
  },
  {
   "date": "20230830",
-  "title": "task 3.3D buddy system Nikhil",
-  "views": 20,
+  "title": "Buddy System — Task 3.3D Demo | By Nikhil",
   "duration": "0m56s",
   "url": "https://youtu.be/A5iU95HtPR0",
   "unit": null
  },
  {
   "date": "20230831",
-  "title": "gui task three leds raspberry Pi Nikhil sit 210",
-  "views": 35,
+  "title": "Raspberry Pi GUI — Three-LED Controller | By Nikhil",
   "duration": "0m50s",
   "url": "https://youtu.be/7aJF_muMFH0",
   "unit": "SIT210"
  },
  {
   "date": "20230901",
-  "title": "task 4.2HD sit 210",
-  "views": 87,
+  "title": "Task 4.2HD — Advanced Embedded Demo | By Nikhil",
   "duration": "0m59s",
   "url": "https://youtu.be/F4Vg3sBwtuE",
   "unit": "SIT210"
  },
  {
   "date": "20230903",
-  "title": "task 5.3D screen cast demo video",
-  "views": 38,
+  "title": "Task 5.3D — ScreenCast Demo | By Nikhil",
   "duration": "0m56s",
   "url": "https://youtu.be/i3J23WLxdco",
   "unit": null
  },
  {
   "date": "20230904",
-  "title": "task 7.3D sit 210",
-  "views": 63,
+  "title": "Task 7.3D — Full Project Demo | By Nikhil",
   "duration": "3m20s",
   "url": "https://youtu.be/v3YwuV8YsI4",
   "unit": "SIT210"
  },
  {
   "date": "20230906",
-  "title": "task 2.2C Updated",
-  "views": 25,
+  "title": "Task 2.2C — Updated Demo | By Nikhil",
   "duration": "5m45s",
   "url": "https://youtu.be/Q3FAAJrebKE",
   "unit": null
  },
  {
   "date": "20230910",
-  "title": "task 3.3D Updated",
-  "views": 45,
+  "title": "Task 3.3D — Updated Demo | By Nikhil",
   "duration": "1m29s",
   "url": "https://youtu.be/pjUETlI_LKY",
   "unit": null
  },
  {
   "date": "20230920",
-  "title": "task 5 2C updated",
-  "views": 14,
+  "title": "Task 5.2C — Updated ScreenCast | By Nikhil",
   "duration": "10m56s",
   "url": "https://youtu.be/pKgy7mUxhxI",
   "unit": null
  },
  {
   "date": "20230930",
-  "title": "task 8.1D",
-  "views": 13,
+  "title": "Task 8.1D — ScreenCast Demo | By Nikhil",
   "duration": "1m39s",
   "url": "https://youtu.be/-XO3UMO0Ck0",
   "unit": null
  },
  {
   "date": "20231003",
-  "title": "Task 9.1C Deployment",
-  "views": 26,
+  "title": "Task 9.1C — Deployment Walkthrough | By Nikhil",
   "duration": "3m05s",
   "url": "https://youtu.be/6Pr31xaFhlw",
   "unit": null
  },
  {
   "date": "20231004",
-  "title": "fusion 360",
-  "views": 65,
+  "title": "Fusion 360 — Full Design Tutorial | By Nikhil",
   "duration": "53m29s",
   "url": "https://youtu.be/84RsbPLn6Q8",
   "unit": "SIT210"
  },
  {
   "date": "20231015",
-  "title": "testing prototype project SIT 210",
-  "views": 103,
+  "title": "Prototype Testing — SIT210 Project Demo | By Nikhil",
   "duration": "2m52s",
   "url": "https://youtu.be/Wh4rTMVJVaU",
   "unit": "SIT210"
  },
  {
   "date": "20231022",
-  "title": "new task 7.3D",
-  "views": 24,
+  "title": "Task 7.3D — Final Demo | By Nikhil",
   "duration": "3m08s",
   "url": "https://youtu.be/MDSRVjlynW8",
   "unit": null
  },
  {
   "date": "20240113",
-  "title": "m1 t1 task",
-  "views": 11,
+  "title": "Milestone 1, Task 1 — Demo | By Nikhil",
   "duration": "0m50s",
   "url": "https://youtu.be/ZhXtcFJYFtM",
   "unit": null
  },
  {
   "date": "20240212",
-  "title": "HD Task Jenkins Pipeline",
-  "views": 46,
+  "title": "Jenkins CI/CD Pipeline — HD Task | By Nikhil",
   "duration": "10m37s",
   "url": "https://youtu.be/7cq_o8b9jog",
   "unit": "SIT314"
