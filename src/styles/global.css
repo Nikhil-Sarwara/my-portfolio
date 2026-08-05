@@ -479,25 +479,6 @@ h1.name {
   text-decoration: underline;
 }
 
-.resume-btn {
-  margin-top: 1.5rem;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background: var(--zinc-900);
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border: 1px solid var(--zinc-900);
-  transition: background 0.15s, color 0.15s;
-}
-
-.resume-btn:hover {
-  background: #fff;
-  color: var(--zinc-900);
-}
-
 /* ===== Stats ===== */
 .stats {
   margin-top: 2rem;
