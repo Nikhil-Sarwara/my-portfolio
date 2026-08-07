@@ -2465,7 +2465,18 @@ h1.name {
     white-space: normal;
   }
   .bucket-unit {
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .bucket-unit .u-left {
+    width: 100%;
+  }
+  .bucket-unit .u-meta {
+    justify-content: flex-start;
+    padding-left: 0.15rem;
+  }
+  .bucket-unit .u-arrow {
+    margin-left: auto;
   }
   .section-label {
     font-size: 0.65rem;
