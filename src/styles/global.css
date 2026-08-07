@@ -993,6 +993,10 @@ h1.name {
 
 /* brass push buttons */
 .b-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 0.5rem 1rem;
   border-radius: 9px;
   font-family: 'Geist Mono', monospace;
