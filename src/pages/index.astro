@@ -436,7 +436,8 @@ const experience = [
   </div>
 
   <script define:vars={{ skillToUnits }}>
-    // Mobile/tap toggle for the proof popover (hover is desktop-only)
+    // Click/tap toggle for the proof popover (click-only: no hover auto-open,
+    // so toggle always collapses reliably on desktop and touch)
     const badge = document.getElementById('honours-badge');
     if (badge) {
       badge.addEventListener('click', (e) => {
