@@ -859,6 +859,8 @@ h1.name {
   align-items: center;
   justify-content: center;
   gap: 0.35rem;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   padding: 0.5rem 0.85rem;
   border-radius: 9px;
   font-family: 'Geist Mono', monospace;
@@ -1169,6 +1171,7 @@ h1.name {
 .u-left {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.7rem;
   min-width: 0;
   flex: 1;
@@ -1178,11 +1181,14 @@ h1.name {
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--ink);
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .u-meta {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.4rem;
   font-size: 0.72rem;
   color: var(--ink-soft);
@@ -1201,6 +1207,8 @@ h1.name {
 /* ===== Badges — brass & enamel tags ===== */
 .badge-code {
   display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   font-size: 0.8rem;
   font-weight: 700;
   padding: 0.28rem 0.7rem;
@@ -1218,6 +1226,8 @@ h1.name {
 
 .badge-grade {
   display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   font-size: 0.8rem;
   font-weight: 700;
   padding: 0.28rem 0.7rem;
@@ -1671,6 +1681,7 @@ h1.name {
   font-size: 0.7rem;
   color: var(--ink-faint);
   white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 .st-arrow {
@@ -1748,6 +1759,7 @@ h1.name {
   letter-spacing: 0.01em;
   line-height: 1.12;
   margin-bottom: 1rem;
+  overflow-wrap: anywhere;
   background: linear-gradient(180deg, #6b4d10 0%, var(--ink) 60%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -1758,6 +1770,7 @@ h1.name {
 .unit-meta {
   font-size: 0.78rem;
   color: var(--ink-soft);
+  overflow-wrap: anywhere;
 }
 
 .unit-overview {
@@ -1766,6 +1779,7 @@ h1.name {
   color: var(--ink-soft);
   max-width: 42rem;
   margin-bottom: 2rem;
+  overflow-wrap: anywhere;
 }
 
 .block-label {
@@ -1797,6 +1811,7 @@ h1.name {
 .learnings li {
   position: relative;
   padding-left: 1.2rem;
+  overflow-wrap: anywhere;
 }
 
 .learnings li::before {
@@ -1852,6 +1867,9 @@ h1.name {
 }
 
 .project-row .p-title {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1888,6 +1906,7 @@ h1.name {
   color: var(--ink-soft);
   max-width: 42rem;
   margin-bottom: 2rem;
+  overflow-wrap: anywhere;
 }
 
 .features {
@@ -1903,6 +1922,7 @@ h1.name {
 .features li {
   position: relative;
   padding-left: 1.2rem;
+  overflow-wrap: anywhere;
 }
 
 .features li::before {
@@ -1921,6 +1941,8 @@ h1.name {
 /* big brass push button */
 .evidence-btn {
   display: inline-block;
+  max-width: 100%;
+  text-align: center;
   padding: 0.8rem 1.6rem;
   border-radius: 10px;
   font-family: 'Geist Mono', monospace;
@@ -2399,6 +2421,7 @@ h1.name {
 .skill-unit .u-meta {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.4rem;
   font-size: 0.72rem;
   color: var(--ink-soft);
@@ -2468,6 +2491,29 @@ h1.name {
   }
   .unit-title {
     font-size: 1.45rem;
+  }
+  .unit-header {
+    gap: 0.35rem;
+  }
+  .block-label {
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+  .tl-period {
+    white-space: normal;
+  }
+  .project-row {
+    gap: 0.5rem;
+    padding: 1rem 1.1rem;
+  }
+  .project-row .p-num {
+    flex-shrink: 0;
+  }
+  .project-row .p-title {
+    display: inline;
+  }
+  .skill-unit .u-meta {
+    white-space: normal;
   }
   .skill-panel {
     width: 100%;
