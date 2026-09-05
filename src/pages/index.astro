@@ -17,7 +17,7 @@ const site = {
 
 const stats = [
   { num: "∞", cap: "Projects" },
-  { num: "∞", cap: "Technologies" },
+  { num: "37+", cap: "Technologies" },
   { num: "8 years +", cap: "Experience" },
 ];
 
@@ -232,7 +232,7 @@ const experience = [
             {
               stats.map((s) => (
                 <div class="stat">
-                  <div class="num">{s.num}</div>
+                  <div class={`num${s.cap === 'Experience' ? ' num-sm' : ''}`}>{s.num}</div>
                   <div class="cap">{s.cap}</div>
                 </div>
               ))
