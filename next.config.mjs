@@ -1,2 +1,3 @@
-const config = { output: "export", images: { unoptimized: true } };
+/** @type {import('next').NextConfig} */
+const config = {};
 export default config;
