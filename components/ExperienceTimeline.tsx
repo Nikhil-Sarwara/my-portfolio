@@ -30,6 +30,12 @@ const experience = [
     desc: "Winter holidays — forklift operations and on-site management.",
   },
   {
+    period: "Jul – Oct 2024",
+    title: "Junior Backend Engineer",
+    org: "Gopher Industries · SIT374 Team Project (A)",
+    desc: "Project Management and Practices — backend development for a team-based software engineering capstone project.",
+  },
+  {
     period: "2024 – 2026",
     title: "B. Software Engineering (Honours)",
     org: "Deakin University",
@@ -40,6 +46,12 @@ const experience = [
     title: "Console Operator (Casual)",
     org: "7-Eleven",
     desc: "Night-shift casual — cash handling, inventory, customer service.",
+  },
+  {
+    period: "Mar – Jun 2025",
+    title: "Lead Backend Engineer",
+    org: "Gopher Industries · SIT378 Team Project (B)",
+    desc: "Execution and Delivery — led the backend team for the full-cycle software engineering capstone, from architecture through deployment.",
   },
   {
     period: "2025",
